@@ -1,0 +1,660 @@
+{
+  "building": {
+    "code": "RAB",
+    "name": "Ragib Ali Bhaban",
+    "number": "2"
+  },
+  "room": {
+    "id": "RAB-402",
+    "number": "402",
+    "floor": "4th floor"
+  },
+  "academic_session": "Summer-2026(Tri)/ Fall-2026(Bi)",
+  "time_slots": {
+    "1": {
+      "start": "09:00",
+      "end": "10:05"
+    },
+    "2": {
+      "start": "10:05",
+      "end": "11:10"
+    },
+    "3": {
+      "start": "11:10",
+      "end": "12:15"
+    },
+    "4": {
+      "start": "12:15",
+      "end": "13:20"
+    },
+    "5": {
+      "start": "13:50",
+      "end": "14:55"
+    },
+    "6": {
+      "start": "14:55",
+      "end": "16:00"
+    },
+    "7": {
+      "start": "16:00",
+      "end": "17:05"
+    }
+  },
+  "break": {
+    "start": "13:20",
+    "end": "13:50"
+  },
+  "schedule": {
+    "Sunday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "GED-3111",
+        "course_name": null,
+        "teacher_code": "ASP",
+        "teacher_name": null,
+        "section": "A",
+        "raw_text": "ENG Booked\nGED-3111_A_ASP"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELI-1221",
+        "course_name": null,
+        "teacher_code": "SA",
+        "teacher_name": null,
+        "section": "B",
+        "raw_text": "ENG Booked\nELI-1221_B_SA"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELA-1111",
+        "course_name": null,
+        "teacher_code": "AASH",
+        "teacher_name": null,
+        "section": "A",
+        "raw_text": "ENG Booked\nELA-1111_A_AASH"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELA-1211",
+        "course_name": null,
+        "teacher_code": "NSD",
+        "teacher_name": null,
+        "section": "A",
+        "raw_text": "ENG Booked\nELA-1211(A),NSD"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "GED-3114",
+        "course_name": null,
+        "teacher_code": "JAC",
+        "teacher_name": null,
+        "section": "A",
+        "raw_text": "ENG Booked\nGED-3114_A_JAC"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "GED-3114",
+        "course_name": null,
+        "teacher_code": "JAC",
+        "teacher_name": null,
+        "section": "A",
+        "raw_text": "ENG Booked\nGED-3114_A_JAC"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "free",
+        "department": null,
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": null
+      }
+    },
+    "Monday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "GED-3193",
+        "course_name": null,
+        "teacher_code": "AMM",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "ENG Booked\nGED-3193,AMM"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELI-1122",
+        "course_name": null,
+        "teacher_code": "TS",
+        "teacher_name": null,
+        "section": "A",
+        "raw_text": "ENG Booked\nELI-1122_A_TS"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELI-1121",
+        "course_name": null,
+        "teacher_code": "Ao",
+        "teacher_name": null,
+        "section": "B",
+        "raw_text": "ENG Booked\nELI-1121_B_Ao"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELI-3225",
+        "course_name": null,
+        "teacher_code": "AASH",
+        "teacher_name": null,
+        "section": "A",
+        "raw_text": "ENG Booked\nELI-3225_A_AASH"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELI-3125",
+        "course_name": null,
+        "teacher_code": "NSD",
+        "teacher_name": null,
+        "section": "A",
+        "raw_text": "ENG Booked\nELI-3125(A), NSD"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELI-3222",
+        "course_name": null,
+        "teacher_code": "RS",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "ENG Booked\nELI-3222,RS"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "booked",
+        "department": null,
+        "course_code": "ELI-3225",
+        "course_name": null,
+        "teacher_code": "AASH",
+        "teacher_name": null,
+        "section": "A",
+        "raw_text": "ELI-3225,A,AASH"
+      }
+    },
+    "Tuesday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELI-2223",
+        "course_name": null,
+        "teacher_code": "NSD",
+        "teacher_name": null,
+        "section": "B",
+        "raw_text": "ENG Booked\nELI-2223_B_NSD"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "GED-1117",
+        "course_name": null,
+        "teacher_code": "NSD",
+        "teacher_name": null,
+        "section": "B",
+        "raw_text": "ENG Booked\nGED-1117_B_NSD"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELA-1111",
+        "course_name": null,
+        "teacher_code": "AA",
+        "teacher_name": null,
+        "section": "B",
+        "raw_text": "ENG Booked\nELA-1111_B_AA"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELI-3126",
+        "course_name": null,
+        "teacher_code": "SA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "ENG Booked\nELI-3126,SA"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "GED-1116",
+        "course_name": null,
+        "teacher_code": "FH",
+        "teacher_name": null,
+        "section": "A",
+        "raw_text": "ENG Booked\nGED-1116,A, FH"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELA-1211",
+        "course_name": null,
+        "teacher_code": "SNM",
+        "teacher_name": null,
+        "section": "B",
+        "raw_text": "ENG Booked\nELA-1211,B, SNM"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "booked",
+        "department": null,
+        "course_code": "ELI-1122",
+        "course_name": null,
+        "teacher_code": "TS",
+        "teacher_name": null,
+        "section": "B",
+        "raw_text": "ELI-1122, B, TS"
+      }
+    },
+    "Wednesday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELI-1221",
+        "course_name": null,
+        "teacher_code": "SA",
+        "teacher_name": null,
+        "section": "B",
+        "raw_text": "ENG Booked\nELI-1221_B_SA"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELI-1122",
+        "course_name": null,
+        "teacher_code": "TS",
+        "teacher_name": null,
+        "section": "B",
+        "raw_text": "ENG Booked\nELI-1122_B_TS"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELA-2112",
+        "course_name": null,
+        "teacher_code": "SA",
+        "teacher_name": null,
+        "section": "B",
+        "raw_text": "ENG Booked\nELA-2112_B_SA"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELA-2111",
+        "course_name": null,
+        "teacher_code": "SNM",
+        "teacher_name": null,
+        "section": "B",
+        "raw_text": "ENG Booked\nELA-2111_B_SNM"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELI-1122",
+        "course_name": null,
+        "teacher_code": "TS",
+        "teacher_name": null,
+        "section": "A",
+        "raw_text": "ENG Booked\nELI-1122,A, TS"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "GED-2247",
+        "course_name": null,
+        "teacher_code": "TR",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "ENG Booked\nGED-2247, TR"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "booked",
+        "department": null,
+        "course_code": "ELI-2222",
+        "course_name": null,
+        "teacher_code": "TS",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "ELI-2222, TS"
+      }
+    },
+    "Thursday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELI-3127",
+        "course_name": null,
+        "teacher_code": "KM",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "ENG Booked\nELI-3127_KM"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELI-3127",
+        "course_name": null,
+        "teacher_code": "KM",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "ENG Booked\nELI-3127_KM"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELA-2111",
+        "course_name": null,
+        "teacher_code": "SNM",
+        "teacher_name": null,
+        "section": "B",
+        "raw_text": "ENG Booked\nELA-2111,B, SNM"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "ELI-1221",
+        "course_name": null,
+        "teacher_code": "SA",
+        "teacher_name": null,
+        "section": "A",
+        "raw_text": "ENG Booked\nELI-1221_A_SA"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "GED-3111",
+        "course_name": null,
+        "teacher_code": "ASP",
+        "teacher_name": null,
+        "section": "A",
+        "raw_text": "ENG Booked\nGED-3111_A_ASP"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "ENG",
+        "course_code": "GED-1201",
+        "course_name": null,
+        "teacher_code": "MRT",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "ENG Booked\nGED-1201(C)(A), MRT"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "booked",
+        "department": null,
+        "course_code": "ELA-1213",
+        "course_name": null,
+        "teacher_code": "AA",
+        "teacher_name": null,
+        "section": "A",
+        "raw_text": "ELA-1213, A, AA"
+      }
+    },
+    "Friday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "CE 3141",
+        "course_name": null,
+        "teacher_code": "SB",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nCE 3141 (SB)"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "CE 3141",
+        "course_name": null,
+        "teacher_code": "SB",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nCE 3141 (SB)"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "CE 3133",
+        "course_name": null,
+        "teacher_code": "SI",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nCE 3133 (SI)"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "CE 3133",
+        "course_name": null,
+        "teacher_code": "SI",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nCE 3133 (SI)"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "CE 3133",
+        "course_name": null,
+        "teacher_code": "SI",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nCE 3133 (SI)"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "free",
+        "department": null,
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": null
+      }
+    },
+    "Saturday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "CE 2221",
+        "course_name": null,
+        "teacher_code": "GSB",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nCE 2221 (GSB)"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "CE 2221",
+        "course_name": null,
+        "teacher_code": "GSB",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nCE 2221 (GSB)"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "CE 2141",
+        "course_name": null,
+        "teacher_code": "EA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nCE 2141 (EA)"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "CE 2141",
+        "course_name": null,
+        "teacher_code": "EA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nCE 2141 (EA)"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "CE 2222",
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nCE 2222 RAB-402"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "free",
+        "department": null,
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": null
+      }
+    }
+  },
+  "verification": {
+    "status": "verified",
+    "unclear_items": [],
+    "notes": [
+      "Friday Slot 6 and Saturday Slot 6 only contain the text 'BuA Booked' without any specific course information.",
+      "Thursday Slot 6 course code 'GED-1201' contains complex section formatting '(C)(A)' in the raw text, which is preserved in raw_text while leaving the parsed section field null for safety.",
+      "Some Slot 7 entries do not contain department prefixes like 'ENG Booked', so the department field was set to null while preserving raw text."
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "building": { "code": "RAB", "name": "Ragib Ali Bhaban", "number": "2" },
+  "room": { "id": "RAB-308", "number": "308", "floor": "3rd floor" },
+  "academic_session": "Summer-2026(Tri)/ Fall-2026(Bi)",
+  "time_slots": {
+    "1": { "start": "09:00", "end": "10:05" },
+    "2": { "start": "10:05", "end": "11:10" },
+    "3": { "start": "11:10", "end": "12:15" },
+    "4": { "start": "12:15", "end": "13:20" },
+    "5": { "start": "13:50", "end": "14:55" },
+    "6": { "start": "14:55", "end": "16:00" },
+    "7": { "start": "16:00", "end": "17:05" }
+  },
+  "break": { "start": "13:20", "end": "13:50" },
+  "schedule": {
+    "Sunday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Monday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Tuesday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Wednesday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Thursday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Friday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Saturday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "LAW Booked" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    }
+  },
+  "verification": {
+    "status": "verified",
+    "unclear_items": [],
+    "notes": [
+      "room.floor ('3rd floor') came from the user's message, not the sheet - the sheet itself has no floor field.",
+      "Every Slot 1-6 cell, for all 7 days, reads only 'LAW Booked' with a genuinely blank line beneath - no course code, teacher code, or any other detail appears anywhere on this sheet.",
+      "Slot 7 is blank for all 7 days (no label, no text) - recorded as free.",
+      "The BREAK column shows 'LAW Booked' with no course code for all 7 days; not included in the per-day schedule since the schema keeps break as a single top-level start/end only.",
+      "Class Capacity and Exam Capacity labels are printed with no values filled in. A small '9' appears to the left of the table, outside its border (likely a page/sheet number) - not part of the room data.",
+      "Image has plastic-covering glare across the sheet; none of it obscured a schedule cell - the entire table was legible after zooming in."
+    ]
+  }
+}

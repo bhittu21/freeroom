@@ -1,0 +1,94 @@
+{
+  "building": { "code": "RAB", "name": null, "number": null },
+  "room": { "id": "ECL 2", "number": null, "floor": "2nd floor" },
+  "academic_session": null,
+  "time_slots": {
+    "1": { "start": "09:00", "end": "10:05" },
+    "2": { "start": "10:05", "end": "11:10" },
+    "3": { "start": "11:10", "end": "12:15" },
+    "4": { "start": "12:15", "end": "13:20" },
+    "5": { "start": "13:50", "end": "14:55" },
+    "6": { "start": "14:55", "end": "16:00" },
+    "7": { "start": "16:00", "end": "17:00" }
+  },
+  "break": { "start": "13:20", "end": "13:50" },
+  "schedule": {
+    "Saturday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "EEE-2202", "course_name": null, "teacher_code": "NNZ", "teacher_name": null, "section": null, "raw_text": "EEE-2202_NNZ_ECL 2" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "EEE-2202", "course_name": null, "teacher_code": "NNZ", "teacher_name": null, "section": null, "raw_text": "EEE-2202_NNZ_ECL 2" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "EEE-1102", "course_name": null, "teacher_code": "NMH", "teacher_name": null, "section": null, "raw_text": "EEE-1102_NMH_ECL-2" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "EEE-1102", "course_name": null, "teacher_code": "NMH", "teacher_name": null, "section": null, "raw_text": "EEE-1102_NMH_ECL-2" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "EEE-1202", "course_name": null, "teacher_code": "IAC", "teacher_name": null, "section": null, "raw_text": "EEE-1202_IAC_ECL-2" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "EEE-1202", "course_name": null, "teacher_code": "IAC", "teacher_name": null, "section": null, "raw_text": "EEE-1202_IAC_ECL-2" },
+      "7": { "start": "16:00", "end": "17:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Sunday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "EEE-1102", "course_name": null, "teacher_code": "STH", "teacher_name": null, "section": null, "raw_text": "EEE-1102_STH_ECL 2" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "EEE-1102", "course_name": null, "teacher_code": "STH", "teacher_name": null, "section": null, "raw_text": "EEE-1102_STH_ECL 2" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": "Navid Sir", "section": null, "raw_text": "Booked (Navid Sir)" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": "Navid Sir", "section": null, "raw_text": "Booked (Navid Sir)" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": "Navid Sir", "section": null, "raw_text": "Booked (Navid Sir)" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": "Navid Sir", "section": null, "raw_text": "Booked( Navid Sir)" },
+      "7": { "start": "16:00", "end": "17:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Monday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "RBT-1200", "course_name": null, "teacher_code": "TCS", "teacher_name": null, "section": null, "raw_text": "RBT-1200_TCS" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "RBT-1200", "course_name": null, "teacher_code": "TCS", "teacher_name": null, "section": null, "raw_text": "RBT-1200_TCS" },
+      "3": { "start": "11:10", "end": "12:15", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": "Navid Sir", "section": null, "raw_text": "Booked (Navid Sir)" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "EEE-1102", "course_name": null, "teacher_code": "NMH", "teacher_name": null, "section": null, "raw_text": "EEE-1102_NMH_ECL 2" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "EEE-1102", "course_name": null, "teacher_code": "NMH", "teacher_name": null, "section": null, "raw_text": "EEE-1102_NMH_ECL 2" },
+      "7": { "start": "16:00", "end": "17:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Tuesday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "EEE-1202", "course_name": null, "teacher_code": "IAC", "teacher_name": null, "section": null, "raw_text": "EEE-1202_IAC_ECL 2" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "EEE-1202", "course_name": null, "teacher_code": "IAC", "teacher_name": null, "section": null, "raw_text": "EEE-1202_IAC_ECL 2" },
+      "4": { "start": "12:15", "end": "13:20", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": "Navid Sir", "section": null, "raw_text": "Booked (Navid Sir)" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": "Navid Sir", "section": null, "raw_text": "Booked (Navid Sir)" },
+      "7": { "start": "16:00", "end": "17:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Wednesday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "RBT-1200", "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "Part of RBT-1200" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "EEE-2102", "course_name": null, "teacher_code": "NNZ", "teacher_name": null, "section": null, "raw_text": "EEE-2102_NNZ_ECL 2" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "EEE-2102", "course_name": null, "teacher_code": "NNZ", "teacher_name": null, "section": null, "raw_text": "EEE-2102_NNZ_ECL 2" },
+      "4": { "start": "12:15", "end": "13:20", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "EEE-2202", "course_name": null, "teacher_code": "NNZ", "teacher_name": null, "section": null, "raw_text": "EEE-2202_NNZ_ECL 2" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "EEE-2202", "course_name": null, "teacher_code": "NNZ", "teacher_name": null, "section": null, "raw_text": "EEE-2202_NNZ_ECL 2" },
+      "7": { "start": "16:00", "end": "17:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Thursday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "RBT-1100", "course_name": null, "teacher_code": "TCS", "teacher_name": null, "section": null, "raw_text": "RBT-1100_TCS" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "RBT-1100", "course_name": null, "teacher_code": "TCS", "teacher_name": null, "section": null, "raw_text": "RBT-1100_TCS" },
+      "3": { "start": "11:10", "end": "12:15", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "4": { "start": "12:15", "end": "13:20", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "5": { "start": "13:50", "end": "14:55", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "6": { "start": "14:55", "end": "16:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "7": { "start": "16:00", "end": "17:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Friday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "2": { "start": "10:05", "end": "11:10", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "3": { "start": "11:10", "end": "12:15", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "4": { "start": "12:15", "end": "13:20", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "5": { "start": "13:50", "end": "14:55", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "6": { "start": "14:55", "end": "16:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "7": { "start": "16:00", "end": "17:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    }
+  },
+  "verification": {
+    "status": "verified",
+    "unclear_items": [],
+    "notes": [
+      "This sheet only has the title 'ECL 2' and the same slot/time header as ECL-1's sheet, with no 'LU Room Management' banner, room-ID field, or capacity fields; academic_session was left null since no session/semester text appears anywhere on this sheet. Slot-7 ends at 05:00 PM, matching ECL-1's sheet (not 05:05 PM like the numbered RAB rooms).",
+      "building.code ('RAB') and room.floor ('2nd floor') came from the user's message, not the sheet - the sheet only prints the title 'ECL 2' with no building name or floor.",
+      "No cell carries a status label except the 'Booked (Navid Sir)' cells; other filled cells have no label at all, matching the ECL-1 sheet's format. Status was inferred as 'booked' wherever text is present, 'free' where a cell is visually empty.",
+      "Cells reading '(...) Booked (Navid Sir)' name a person rather than a course/teacher code - recorded with teacher_name 'Navid Sir' and course_code left null, since 'Sir' makes this read as a name/title rather than a short code like the other cells use.",
+      "The BREAK column is blank for every day except Monday, which reads 'Booked(Navid Sir)' - not included in the per-day schedule since the schema keeps break as a single top-level start/end only, but noted here since it's unusual for this column to have any content at all.",
+      "Wednesday Slot 1 reads 'Part of RBT-1200' rather than a standalone code - recorded with course_code 'RBT-1200' and the literal text kept in raw_text, since it appears to describe a continuation of Monday's RBT-1200 course rather than a new booking.",
+      "Cells otherwise follow 'DEPT-#### _ TEACHER _ ECL 2' (e.g. 'EEE-2202_NNZ_ECL 2'): course_code took the 'DEPT-####' part, teacher_code the short code after it, and the trailing 'ECL 2'/'ECL-2' (a repeated lab reference) was left out of the structured fields but kept in raw_text. 'RBT-1200_TCS' and 'RBT-1100_TCS' have no lab-reference suffix at all.",
+      "Image has some ambient wood-paneling background outside the table and mild glare on the plastic covering; all cells were legible after zooming in."
+    ]
+  }
+}

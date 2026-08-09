@@ -1,0 +1,103 @@
+{
+  "building": {
+    "code": "RAB",
+    "name": "Ragib Ali Bhaban",
+    "number": "2"
+  },
+  "room": {
+    "id": "RAB-109",
+    "number": "109",
+    "floor": "1st floor"
+  },
+  "academic_session": "Summer-2026(Tri)/ Fall-2026(Bi)",
+  "time_slots": {
+    "1": { "start": "09:00", "end": "10:05" },
+    "2": { "start": "10:05", "end": "11:10" },
+    "3": { "start": "11:10", "end": "12:15" },
+    "4": { "start": "12:15", "end": "13:20" },
+    "5": { "start": "13:50", "end": "14:55" },
+    "6": { "start": "14:55", "end": "16:00" },
+    "7": { "start": "16:00", "end": "17:05" }
+  },
+  "break": { "start": "13:20", "end": "13:50" },
+  "schedule": {
+    "Sunday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "CE 2211", "course_name": null, "teacher_code": "NI", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 2211 (NI)" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "CE 2211", "course_name": null, "teacher_code": "NI", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 2211 (NI)" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CE 2112", "course_name": null, "teacher_code": "AC", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 2112 (AC)" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "CE 2112", "course_name": null, "teacher_code": "AC", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 2112 (AC)" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "CE 2113", "course_name": null, "teacher_code": "SI", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 2113 (SI)" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "CE 2113", "course_name": null, "teacher_code": "SI", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 2113 (SI)" },
+      "7": { "start": "16:00", "end": "17:05", "status": "booked", "department": null, "course_code": "CE 2141", "course_name": null, "teacher_code": "EA", "teacher_name": null, "section": null, "raw_text": "CE 2141 (EA)" }
+    },
+    "Monday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "CE 1213", "course_name": null, "teacher_code": "MHS", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 1213 (MHS)" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "CE 1213", "course_name": null, "teacher_code": "MHS", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 1213 (MHS)" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CE 1212", "course_name": null, "teacher_code": "AC", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 1212 (AC)" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "CE 1212", "course_name": null, "teacher_code": "AC", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 1212 (AC)" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "CE 3215", "course_name": null, "teacher_code": "SB", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3215(SB)" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "CE 3215", "course_name": null, "teacher_code": "SB", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3215(SB)" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Tuesday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "CE 3135", "course_name": null, "teacher_code": "SA", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3135 (SA)" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "CE 3135", "course_name": null, "teacher_code": "SA", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3135 (SA)" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CE 4252", "course_name": null, "teacher_code": "NH", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 4252 (NH)" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "CE 4252", "course_name": null, "teacher_code": "NH", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 4252 (NH)" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "ELI-3124", "course_name": null, "teacher_code": "NSD", "teacher_name": null, "section": null, "raw_text": "CE Booked\nELI-3124_NSD" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "CE 4251", "course_name": null, "teacher_code": "RAN", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 4251 (RAN)" },
+      "7": { "start": "16:00", "end": "17:05", "status": "booked", "department": null, "course_code": "CE 4251", "course_name": null, "teacher_code": "RAN", "teacher_name": null, "section": null, "raw_text": "CE 4251 (RAN)" }
+    },
+    "Wednesday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "CE 3252", "course_name": null, "teacher_code": "EA", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3252 (EA)" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "CE 3252", "course_name": null, "teacher_code": "EA", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3252 (EA)" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CE 1111", "course_name": null, "teacher_code": "EA", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 1111 (EA)" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "CE 1111", "course_name": null, "teacher_code": "EA", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 1111 (EA)" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "CE 1112", "course_name": null, "teacher_code": "MHS", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE  1112 (MHS)" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "CE 1112", "course_name": null, "teacher_code": "MHS", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE  1112 (MHS)" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Thursday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "ELA-2211", "course_name": null, "teacher_code": "AA", "teacher_name": null, "section": null, "raw_text": "CE Booked\nELA-2211, AA" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "ELI-2222", "course_name": null, "teacher_code": "TS", "teacher_name": null, "section": null, "raw_text": "CE Booked\nELI-2222, TS" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CE 4201", "course_name": null, "teacher_code": "SBK", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 4201 (SBK)" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "CE 4201", "course_name": null, "teacher_code": "SBK", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 4201 (SBK)" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "CE 4116", "course_name": null, "teacher_code": "RAN", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 4116 (RAN)" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "CE Booked" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Friday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "CE 3243", "course_name": null, "teacher_code": "NH", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3243 (NH)" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "CE 3243", "course_name": null, "teacher_code": "NH", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3243 (NH)" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CE 3211", "course_name": null, "teacher_code": "HMM", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3211 (HMM)" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "CE 3212", "course_name": null, "teacher_code": "MHS", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3212 (MHS)" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "CE3252", "course_name": null, "teacher_code": "SB", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE3252 (SB)" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "CE Booked" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Saturday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "CE 4115", "course_name": null, "teacher_code": "MA", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 4115 (MA)" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "CE 4115", "course_name": null, "teacher_code": "MA", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 4115 (MA)" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CE 3214", "course_name": null, "teacher_code": "MA", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3214 (MA)" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "CE 3214", "course_name": null, "teacher_code": "MA", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3214 (MA)" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "CE 2113", "course_name": null, "teacher_code": "TJK", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 2113 (TJK)" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "CE 2113", "course_name": null, "teacher_code": "TJK", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 2113 (TJK)" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    }
+  },
+  "verification": {
+    "status": "verified",
+    "unclear_items": [],
+    "notes": [
+      "'CE' prefixed course codes kept whole (e.g. 'CE 2211') rather than split into a separate department field, since no explicit department label exists on the sheet - same convention as the RAB-108 extraction.",
+      "BREAK column shows 'CE Booked' with no course code for all 7 days; not included in the per-day schedule since the schema keeps break as a single top-level start/end only.",
+      "Thursday Slot 6 and Friday Slot 6 show the 'CE Booked' label with a blank line beneath (genuinely empty, not obscured) - recorded as status 'booked' with course/teacher fields null.",
+      "Sunday Slot 7 (CE 2141 (EA)) and Tuesday Slot 7 (CE 4251 (RAN)) show only a course code with no 'CE Booked' label, unlike other booked cells - likely a 2-hour class continuing from Slot 6.",
+      "Thursday Slot 1 ('ELA-2211, AA') and Slot 2 ('ELI-2222, TS') use a different notation (course-comma-teacher, no parentheses) than the usual 'CE #### (XXX)' cells; course_code and teacher_code were split at the comma.",
+      "Tuesday Slot 5 ('ELI-3124_NSD') uses an underscore instead of parentheses to separate course and teacher code; split as course_code 'ELI-3124', teacher_code 'NSD'.",
+      "Wednesday Slot 5/6 show a double space before '1112' ('CE  1112 (MHS)') and Friday Slot 5 shows no space ('CE3252 (SB)') - both preserved exactly in raw_text; course_code normalized to single-space form.",
+      "Class Capacity and Exam Capacity labels are printed with no values filled in.",
+      "All cells were legible after zooming; no cell was obscured or damaged."
+    ]
+  }
+}

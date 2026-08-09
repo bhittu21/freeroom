@@ -1,0 +1,662 @@
+{
+  "building": {
+    "code": "RKB",
+    "name": "Rabeya Khatun Bhaban",
+    "number": "1"
+  },
+  "room": {
+    "id": "RKB-406",
+    "number": "406",
+    "floor": "4th floor"
+  },
+  "academic_session": "Summer-2026(Tri)/ Fall-2026(Bi)",
+  "time_slots": {
+    "1": {
+      "start": "09:00",
+      "end": "10:05"
+    },
+    "2": {
+      "start": "10:05",
+      "end": "11:10"
+    },
+    "3": {
+      "start": "11:10",
+      "end": "12:15"
+    },
+    "4": {
+      "start": "12:15",
+      "end": "13:20"
+    },
+    "5": {
+      "start": "13:50",
+      "end": "14:55"
+    },
+    "6": {
+      "start": "14:55",
+      "end": "16:00"
+    },
+    "7": {
+      "start": "16:00",
+      "end": "17:05"
+    }
+  },
+  "break": {
+    "start": "13:20",
+    "end": "13:50"
+  },
+  "schedule": {
+    "Sunday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "BUS-1133",
+        "course_name": null,
+        "teacher_code": "ISH",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_BUS-1133_ISH"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "GED-1292",
+        "course_name": null,
+        "teacher_code": "AHA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_GED-1292_AHA"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "GED-1131",
+        "course_name": null,
+        "teacher_code": "NSD",
+        "teacher_name": null,
+        "section": "K",
+        "raw_text": "THM Booked\nTHM_GED-1131(K)_NSD"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "THM-4131",
+        "course_name": null,
+        "teacher_code": "SIS",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_THM-4131_SIS"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "THM-3221",
+        "course_name": null,
+        "teacher_code": "AHA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_THM-3221_AHA"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "THM-3231",
+        "course_name": null,
+        "teacher_code": "SS",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_THM-3231_SS"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "free",
+        "department": null,
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": null
+      }
+    },
+    "Monday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "THM-1111",
+        "course_name": null,
+        "teacher_code": "AHA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_THM-1111_AHA"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "GED-1131",
+        "course_name": null,
+        "teacher_code": "NSD",
+        "teacher_name": null,
+        "section": "K",
+        "raw_text": "THM Booked\nTHM_GED-1131(K)_NSD"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "GED-2112",
+        "course_name": null,
+        "teacher_code": "ISH",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_GED-2112_ISH"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "THM-1223",
+        "course_name": null,
+        "teacher_code": "SS",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_THM-1223_SS"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "THM-2131",
+        "course_name": null,
+        "teacher_code": "SA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_THM-2131_SA"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "THM-3212",
+        "course_name": null,
+        "teacher_code": "AIC",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_THM-3212_AIC"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "booked",
+        "department": null,
+        "course_code": "THM-3212",
+        "course_name": null,
+        "teacher_code": "AIC",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM_THM-3212_AIC"
+      }
+    },
+    "Tuesday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "CSE",
+        "course_code": "GED-1116",
+        "course_name": null,
+        "teacher_code": "FH",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nCSE_GED-1116 FH"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "THM-2132",
+        "course_name": null,
+        "teacher_code": "JJJ",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_THM-2132_JJJ"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "THM",
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "BUS-2141",
+        "course_name": null,
+        "teacher_code": "SIS",
+        "teacher_name": null,
+        "section": "B",
+        "raw_text": "THM Booked\nTHM_BUS-2141(B)_SIS"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "BUS-4123",
+        "course_name": null,
+        "teacher_code": "MMR",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_BUS-4123_MMR"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "BUS-4123",
+        "course_name": null,
+        "teacher_code": "MMR",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_BUS-4123_MMR"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "free",
+        "department": null,
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": null
+      }
+    },
+    "Wednesday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "THM-1223",
+        "course_name": null,
+        "teacher_code": "SS",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_THM-1223_SS"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "ELA-2111",
+        "course_name": null,
+        "teacher_code": "AASH",
+        "teacher_name": null,
+        "section": "A",
+        "raw_text": "THM Booked\nELA-2111(A)_AASH"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "GED-2112",
+        "course_name": null,
+        "teacher_code": "ISH",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_GED-2112_ISH"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "THM-2132",
+        "course_name": null,
+        "teacher_code": "JJJ",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_THM-2132_JJJ"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "THM-3231",
+        "course_name": null,
+        "teacher_code": "SS",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_THM-3231_SS"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "THM-4131",
+        "course_name": null,
+        "teacher_code": "SIS",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_THM-4131_SIS"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "booked",
+        "department": null,
+        "course_code": "THM-3221",
+        "course_name": null,
+        "teacher_code": "AHA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM_THM-3221_AHA"
+      }
+    },
+    "Thursday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "THM",
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-4147",
+        "course_name": null,
+        "teacher_code": "AY",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nBuA_BUS-4147(AY)"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "THM-1133",
+        "course_name": null,
+        "teacher_code": "ISH",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_THM-1133_ISH"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "GED-1292",
+        "course_name": null,
+        "teacher_code": "AHA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_GED-1292_AHA"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "THM",
+        "course_code": "THM-2211",
+        "course_name": null,
+        "teacher_code": "SS",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked\nTHM_THM-2211_SS"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "THM",
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "THM Booked"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "free",
+        "department": null,
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": null
+      }
+    },
+    "Friday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "CE",
+        "course_code": "CE 1213",
+        "course_name": null,
+        "teacher_code": "DHT",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "CE Booked\nCE 1213 (DHT)"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "CE",
+        "course_code": "CE 1213",
+        "course_name": null,
+        "teacher_code": "DHT",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "CE Booked\nCE 1213 (DHT)"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "CE",
+        "course_code": "GED 1231",
+        "course_name": null,
+        "teacher_code": "ARU",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "CE Booked\nGED 1231 (ARU)"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "CE",
+        "course_code": "GED 1231",
+        "course_name": null,
+        "teacher_code": "ARU",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "CE Booked\nGED 1231 (ARU)"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "CE",
+        "course_code": "GED 1231",
+        "course_name": null,
+        "teacher_code": "ARU",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "CE Booked\nGED 1231 (ARU)"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "CE",
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "CE Booked"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "free",
+        "department": null,
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": null
+      }
+    },
+    "Saturday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "CE",
+        "course_code": "CE 2211",
+        "course_name": null,
+        "teacher_code": "NI",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "CE Booked\nCE 2211(NI)"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "CE",
+        "course_code": "CE 2211",
+        "course_name": null,
+        "teacher_code": "NI",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "CE Booked\nCE 2211(NI)"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "CE",
+        "course_code": "MAT 2151",
+        "course_name": null,
+        "teacher_code": "NNP",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "CE Booked\nMAT 2151(NNP)"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "CE",
+        "course_code": "GED 1171",
+        "course_name": null,
+        "teacher_code": "KCM",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "CE Booked\nGED 1171(KCM)"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "CE",
+        "course_code": "CE 4101",
+        "course_name": null,
+        "teacher_code": "ARK",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "CE Booked\nCE 4101 (ARK)"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "CE",
+        "course_code": "CE 4101",
+        "course_name": null,
+        "teacher_code": "ARK",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "CE Booked\nCE 4101 (ARK)"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "free",
+        "department": null,
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": null
+      }
+    }
+  },
+  "verification": {
+    "status": "verified",
+    "unclear_items": [],
+    "notes": [
+      "Monday Slot 7 and Wednesday Slot 7 contain course info without a booking header. The department is set to null, following strict parsing logic, and the raw text preserves the original text.",
+      "Tuesday Slot 1 specifies 'THM Booked' but provides a course string of 'CSE_GED-1116 FH'. The department was assigned as CSE according to the explicit string prefix, and the raw text holds the full original contents.",
+      "Tuesday Slot 3, Thursday Slot 1, Thursday Slot 6, and Friday Slot 6 only contain booking headers with no specific course details. These are marked as booked, and null course fields were assigned.",
+      "Thursday Slot 2 specifies 'THM Booked' but provides 'BuA_BUS-4147(AY)'. The department field is set to BuA based on the prefix mapping logic.",
+      "Some section formatting uses parentheses to encapsulate the teacher code instead of a section letter (e.g., 'BuA_BUS-4147(AY)' or 'CE 2211(NI)'). The values within these specific cases were identified as the teacher_code rather than section."
+    ]
+  }
+}

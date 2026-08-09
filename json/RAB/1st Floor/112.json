@@ -1,0 +1,102 @@
+{
+  "building": {
+    "code": "RAB",
+    "name": "Ragib Ali Bhaban",
+    "number": "2"
+  },
+  "room": {
+    "id": "RAB-112",
+    "number": "112",
+    "floor": "1st floor"
+  },
+  "academic_session": "Summer-2026(Tri)/ Fall-2026(Bi)",
+  "time_slots": {
+    "1": { "start": "09:00", "end": "10:05" },
+    "2": { "start": "10:05", "end": "11:10" },
+    "3": { "start": "11:10", "end": "12:15" },
+    "4": { "start": "12:15", "end": "13:20" },
+    "5": { "start": "13:50", "end": "14:55" },
+    "6": { "start": "14:55", "end": "16:00" },
+    "7": { "start": "16:00", "end": "17:05" }
+  },
+  "break": { "start": "13:20", "end": "13:50" },
+  "schedule": {
+    "Sunday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "EEE Booked" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "EEE-3107", "course_name": null, "teacher_code": "MAA", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nEEE-3107_MAA_RAB 112" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "MAT-1151", "course_name": null, "teacher_code": "NNP", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nMAT-1151_ NNP _RAB 112" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "EEE Booked" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "EEE-2201", "course_name": null, "teacher_code": "NNZ", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nEEE-2201_NNZ_RAB-112" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "GED-3111", "course_name": null, "teacher_code": "ASP", "teacher_name": null, "section": "A", "raw_text": "EEE Booked\nGED-3111(A), ASP" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Monday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "GED-1161", "course_name": null, "teacher_code": "JFC", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nGED-1161_ JFC_ RAB 112" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "MAT-1251", "course_name": null, "teacher_code": "SNJ", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nMAT-1251_ SNJ_ RAB 112" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "MAT-2251", "course_name": null, "teacher_code": "SRR", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nMAT-2251_ SRR _ RAB 112" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "EEE Booked" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "EEE-2105", "course_name": null, "teacher_code": "MMP", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nEEE-2105_MMP_RAB 112" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "GED-1131", "course_name": null, "teacher_code": "ARU", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nGED-1131_ ARU _RAB 112" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Tuesday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "EEE-2201", "course_name": null, "teacher_code": "NNZ", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nEEE-2201_NNZ_RAB 112" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "EEE-3107", "course_name": null, "teacher_code": "MAA", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nEEE-3107_MAA_RAB 112" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "EEE Booked" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "EEE Booked" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "EEE-1201", "course_name": null, "teacher_code": "IAC", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nEEE-1201_IAC_RAB 112" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "MAT-2251", "course_name": null, "teacher_code": "AMH", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nMAT-2251_AMH_ RAB 112" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Wednesday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "PHY-1171", "course_name": null, "teacher_code": "MRI", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nPHY-1171 MRI RAB 112" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "GED-1131", "course_name": null, "teacher_code": "ARU", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nGED-1131_ ARU _RAB 112" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "MAT-2251", "course_name": null, "teacher_code": "SRR", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nMAT-2251_ SRR _ RAB 112" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "EEE Booked" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "MAT-1151", "course_name": null, "teacher_code": "NNP", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nMAT-1151_ NNP_RAB 112" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "GED-1231", "course_name": null, "teacher_code": "ARU", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nGED-1231_ ARU_ RAB 112" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Thursday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "GED-1131", "course_name": null, "teacher_code": "ARU", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nGED-1131_ARU_RAB-112" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "GED-1131", "course_name": null, "teacher_code": "ARU", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nGED-1131_ARU_RAB-112" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "MAT-2151", "course_name": null, "teacher_code": "SNJ", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nMAT-2151_ SNJ_ RAB-112" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "GED-3111", "course_name": null, "teacher_code": "ASP", "teacher_name": null, "section": "B", "raw_text": "EEE Booked\nGED-3111(B), ASP" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "GED-1291", "course_name": null, "teacher_code": "MSH", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nGED-1291_MSH_ RAB 112" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "GED-1291", "course_name": null, "teacher_code": "MSH", "teacher_name": null, "section": null, "raw_text": "EEE Booked\nGED-1291_MSH_ RAB 112" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Friday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "CE 2215", "course_name": null, "teacher_code": "SI", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 2215 (SI)" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "CE 2215", "course_name": null, "teacher_code": "SI", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 2215 (SI)" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CE 2232", "course_name": null, "teacher_code": "MHS", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 2232 (MHS)" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "CE Booked" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "CE Booked" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "CE Booked" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Saturday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "CE 3116", "course_name": null, "teacher_code": "SA", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3116 (SA)" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "CE 3116", "course_name": null, "teacher_code": "SA", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3116 (SA)" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CE 3111", "course_name": null, "teacher_code": "GSB", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3111(GSB)" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "CE 3111", "course_name": null, "teacher_code": "GSB", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3111(GSB)" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "CE 3113", "course_name": null, "teacher_code": "AC", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3113 (AC)" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "CE 3113", "course_name": null, "teacher_code": "AC", "teacher_name": null, "section": null, "raw_text": "CE Booked\nCE 3113 (AC)" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    }
+  },
+  "verification": {
+    "status": "verified",
+    "unclear_items": [],
+    "notes": [
+      "Most booked cells here use underscores: 'DEPT-#### _ TEACHER _ RAB 112' (e.g. 'GED-1161_ JFC_ RAB 112'); course_code took the 'DEPT-####' part, teacher_code the short code between underscores, and the trailing 'RAB 112'/'RAB-112' (a repeated room reference) was left out of the structured fields but kept in raw_text.",
+      "Sunday Slot 6 ('GED-3111(A), ASP') and Thursday Slot 4 ('GED-3111(B), ASP') both name course GED-3111 taught by ASP, with a single-letter parenthetical (A)/(B) directly after the number - this was read as the section, unlike the ambiguous double-parenthetical batch codes seen on other rooms' GED cells.",
+      "The BREAK column shows 'EEE Booked' (Sun-Thu) or 'CE Booked' (Fri-Sat) with no course code for all 7 days; not included in the per-day schedule since the schema keeps break as a single top-level start/end only.",
+      "Slot 7 is entirely blank for all 7 days on this sheet (unlike RAB-108/109/111, which had a couple of Slot 7 classes carrying over from Slot 6).",
+      "Several cells show the booked label with a blank line beneath (Sunday Slot 1 & 4, Monday Slot 4, Tuesday Slot 3 & 4, Wednesday Slot 4, Friday Slot 4-6) - genuinely empty, not obscured - recorded as status 'booked' with course/teacher fields null.",
+      "A small '3' appears to the left of the table, outside its border (likely a page/sheet number) - not part of the room data, so it was not extracted.",
+      "Class Capacity and Exam Capacity labels are printed with no values filled in.",
+      "Image has glare across the laminated/plastic-covered sheet and a fold near the top; all schedule cells were legible after zooming in."
+    ]
+  }
+}

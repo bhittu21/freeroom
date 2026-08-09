@@ -1,0 +1,94 @@
+{
+  "building": { "code": "RAB", "name": "Ragib Ali Bhaban", "number": "2" },
+  "room": { "id": "Gallery-2", "number": null, "floor": "2nd floor" },
+  "academic_session": "Summer-2026(Tri)/ Fall-2026(Bi)",
+  "time_slots": {
+    "1": { "start": "09:00", "end": "10:05" },
+    "2": { "start": "10:05", "end": "11:10" },
+    "3": { "start": "11:10", "end": "12:15" },
+    "4": { "start": "12:15", "end": "13:20" },
+    "5": { "start": "13:50", "end": "14:55" },
+    "6": { "start": "14:55", "end": "16:00" },
+    "7": { "start": "16:00", "end": "17:05" }
+  },
+  "break": { "start": "13:20", "end": "13:50" },
+  "schedule": {
+    "Sunday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "GED-1145", "course_name": null, "teacher_code": "BSR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1145 BSR G2" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "GED-1131", "course_name": null, "teacher_code": "TBR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1131 TBR G2" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "GED-1201", "course_name": null, "teacher_code": "ART", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1201 ART G2" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "CSE-2101", "course_name": null, "teacher_code": "TCN", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nCSE-2101 TCN G2" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "CHE-1161", "course_name": null, "teacher_code": "AAG", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nCHE-1161 AAG G2" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "GED-1145", "course_name": null, "teacher_code": "BSR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1145 BSR G2" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Monday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "GED-1131", "course_name": null, "teacher_code": "TBR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1131 TBR G2" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "CSE-1151", "course_name": null, "teacher_code": "FBM", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nCSE-1151 FBM G2" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "GED-1131", "course_name": null, "teacher_code": "TBR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1131 TBR G2" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "GED-1131", "course_name": null, "teacher_code": "TBR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1131 TBR G2" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "CSE-1151", "course_name": null, "teacher_code": "FBM", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nCSE-1151 FBM G2" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "MAT-1151", "course_name": null, "teacher_code": "SNJ", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nMAT-1151 SNJ G2" },
+      "7": { "start": "16:00", "end": "17:05", "status": "booked", "department": null, "course_code": "CSE-2231", "course_name": null, "teacher_code": "FZM", "teacher_name": null, "section": null, "raw_text": "CSE-2231 FZM G2" }
+    },
+    "Tuesday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "GED-1145", "course_name": null, "teacher_code": "BSR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1145 BSR G2" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "GED-1145", "course_name": null, "teacher_code": "BSR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1145 BSR G2" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "GED-1131", "course_name": null, "teacher_code": "TBR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1131 TBR G2" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "CHE-1161", "course_name": null, "teacher_code": "AAG", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nCHE-1161 AAG G2" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "GED-1201", "course_name": null, "teacher_code": "PMR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1201 PMR G2" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "GED-1231", "course_name": null, "teacher_code": "AO", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1231 AO G2" },
+      "7": { "start": "16:00", "end": "17:05", "status": "booked", "department": null, "course_code": "GED-1201", "course_name": null, "teacher_code": "PMR", "teacher_name": null, "section": null, "raw_text": "GED-1201 PMR G2" }
+    },
+    "Wednesday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "GED-1131", "course_name": null, "teacher_code": "TBR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1131 TBR G2" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "MAT-1151", "course_name": null, "teacher_code": "SNJ", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nMAT-1151 SNJ G2" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CSE-3213", "course_name": null, "teacher_code": "SMD", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nCSE-3213 SMD G2" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "GED-1145", "course_name": null, "teacher_code": "OKS", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1145 OKS G2" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "GED-1201", "course_name": null, "teacher_code": "ART", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1201 ART G2" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "GED-2181", "course_name": null, "teacher_code": "SZR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-2181 SZR G2" },
+      "7": { "start": "16:00", "end": "17:05", "status": "booked", "department": null, "course_code": "CSE-2231", "course_name": null, "teacher_code": "AFR", "teacher_name": null, "section": null, "raw_text": "CSE-2231 AFR G2" }
+    },
+    "Thursday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "GED-1145", "course_name": null, "teacher_code": "OKS", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1145 OKS G2" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "GED-1145", "course_name": null, "teacher_code": "OKS", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1145 OKS G2" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CSE-1101", "course_name": null, "teacher_code": "JKH", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nCSE-1101 JKH G2" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "PHY-1171", "course_name": null, "teacher_code": "MSU", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nPHY-1171 MSU G2" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "CSE-1151", "course_name": null, "teacher_code": "ZAA", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nCSE-1151 ZAA G2" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "CSE-2211", "course_name": null, "teacher_code": "NIR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nCSE-2211 NIR G2" },
+      "7": { "start": "16:00", "end": "17:05", "status": "booked", "department": null, "course_code": "CSE-3121", "course_name": null, "teacher_code": "BPK", "teacher_name": null, "section": null, "raw_text": "CSE-3121 BPK G2" }
+    },
+    "Friday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "CSE-2211", "course_name": null, "teacher_code": "SIS", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nCSE-2211 SIS G2" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "GED-1261", "course_name": null, "teacher_code": "THR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1261 THR G2" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CSE-2231", "course_name": null, "teacher_code": "JKH", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nCSE-2231 JKH G2" },
+      "4": { "start": "12:15", "end": "13:20", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "MAT-3151", "course_name": null, "teacher_code": "SIC", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nMAT-3151 SIC G2" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "GED-1291", "course_name": null, "teacher_code": "MKN", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1291 MKN G2" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Saturday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "GED-1131", "course_name": null, "teacher_code": "TBR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1131 TBR G2" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "GED-1131", "course_name": null, "teacher_code": "JHR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1131 JHR G2" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CSE-1101", "course_name": null, "teacher_code": "BPK", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nCSE-1101 BPK G2" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "GED-2181", "course_name": null, "teacher_code": "SZR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-2181 SZR G2" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "GED-2181", "course_name": null, "teacher_code": "SZR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-2181 SZR G2" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "GED-1131", "course_name": null, "teacher_code": "TBR", "teacher_name": null, "section": null, "raw_text": "CSE Booked\nGED-1131 TBR G2" },
+      "7": { "start": "16:00", "end": "17:05", "status": "booked", "department": null, "course_code": "GED-2181", "course_name": null, "teacher_code": "SZR", "teacher_name": null, "section": null, "raw_text": "GED-2181 SZR G2" }
+    }
+  },
+  "verification": {
+    "status": "verified",
+    "unclear_items": [],
+    "notes": [
+      "This sheet's subtitle reads 'Gallery Room- RAB - Ragib Ali Bhaban (Building-2)' and the room field reads 'Gallery-2' rather than a numbered 'RAB-###' room - recorded as room.id 'Gallery-2' with room.number left null since no separate number is given (unlike 'RAB-108' style IDs).",
+      "room.floor ('2nd floor') came from the user's message, not the sheet - the sheet itself has no floor field.",
+      "Cells follow 'DEPT-#### TEACHER G2' (e.g. 'GED-1145 BSR G2'); course_code took the 'DEPT-####' part, teacher_code the short code after it, and the trailing 'G2' (a repeated room reference) was left out of the structured fields but kept in raw_text.",
+      "The BREAK column shows 'CSE Booked' with no course code for all 7 days; not included in the per-day schedule since the schema keeps break as a single top-level start/end only.",
+      "Friday Slot 4 and Slot 7, and Sunday/Friday/Saturday's blank Slot 7 cells are genuinely empty (no label, no text) - recorded as free.",
+      "Monday, Tuesday, Wednesday, Thursday, and Saturday Slot 7 show a course code with no 'CSE Booked' label above it, consistent with the Slot-7 continuation pattern seen on other rooms.",
+      "Class Capacity and Exam Capacity labels are printed with no values filled in. A small '2' appears to the left of the table, outside its border (likely a page/sheet number) - not part of the room data.",
+      "Image has plastic-covering glare and a bright reflective streak crossing the Slot header row; none of it obscured a schedule cell - all cells were legible after zooming in."
+    ]
+  }
+}

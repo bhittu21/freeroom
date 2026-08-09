@@ -1,0 +1,92 @@
+{
+  "building": { "code": "RAB", "name": null, "number": null },
+  "room": { "id": "ECL-1", "number": null, "floor": "2nd floor" },
+  "academic_session": null,
+  "time_slots": {
+    "1": { "start": "09:00", "end": "10:05" },
+    "2": { "start": "10:05", "end": "11:10" },
+    "3": { "start": "11:10", "end": "12:15" },
+    "4": { "start": "12:15", "end": "13:20" },
+    "5": { "start": "13:50", "end": "14:55" },
+    "6": { "start": "14:55", "end": "16:00" },
+    "7": { "start": "16:00", "end": "17:00" }
+  },
+  "break": { "start": "13:20", "end": "13:50" },
+  "schedule": {
+    "Saturday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "EEE-1222", "course_name": null, "teacher_code": "STH", "teacher_name": null, "section": null, "raw_text": "EEE-1222 STH ECL-19" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "EEE-1222", "course_name": null, "teacher_code": "MMP", "teacher_name": null, "section": null, "raw_text": "EEE-1222 MMP ECL-1" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "EEE-2122", "course_name": null, "teacher_code": "M1M", "teacher_name": null, "section": null, "raw_text": "EEE-2122 M1M ECL-1" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "EEE-1222", "course_name": null, "teacher_code": "STH", "teacher_name": null, "section": null, "raw_text": "EEE-1222 STH ECL-1" },
+      "6": { "start": "14:55", "end": "16:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "7": { "start": "16:00", "end": "17:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Sunday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "EEE 2172", "course_name": null, "teacher_code": "UMP", "teacher_name": null, "section": null, "raw_text": "CE BOOKED\nEEE 2172 (UMP) EEE LAB" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "EEE 2172", "course_name": null, "teacher_code": "UMP", "teacher_name": null, "section": null, "raw_text": "CE BOOKED\nEEE 2172 (UMP) EEE LAB" },
+      "3": { "start": "11:10", "end": "12:15", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "4": { "start": "12:15", "end": "13:20", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "5": { "start": "13:50", "end": "14:55", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "6": { "start": "14:55", "end": "16:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "7": { "start": "16:00", "end": "17:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Monday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "2": { "start": "10:05", "end": "11:10", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "3": { "start": "11:10", "end": "12:15", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "4": { "start": "12:15", "end": "13:20", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "EEE-1222", "course_name": null, "teacher_code": "STH", "teacher_name": null, "section": null, "raw_text": "EEE-1222 STH ECL-1" },
+      "6": { "start": "14:55", "end": "16:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "7": { "start": "16:00", "end": "17:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Tuesday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "EEE-1222", "course_name": null, "teacher_code": "N2", "teacher_name": null, "section": null, "raw_text": "EEE-1222 N2 ECL-1" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "EEE-2122", "course_name": null, "teacher_code": "FMS", "teacher_name": null, "section": null, "raw_text": "EEE-2122 FMS ECL-1" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "EEE-2122", "course_name": null, "teacher_code": "TCS", "teacher_name": null, "section": null, "raw_text": "EEE-2122 TCS ECL-1" },
+      "4": { "start": "12:15", "end": "13:20", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "EEE-2122", "course_name": null, "teacher_code": "FMS", "teacher_name": null, "section": null, "raw_text": "EEE-2122 FMS ECL-1" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "EEE-1222", "course_name": null, "teacher_code": "N2", "teacher_name": null, "section": null, "raw_text": "EEE-1222 N2 ECL-1" },
+      "7": { "start": "16:00", "end": "17:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Wednesday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "EEE-2122", "course_name": null, "teacher_code": "FMS", "teacher_name": null, "section": null, "raw_text": "EEE-2122 FMS ECL-1" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "EEE-1222", "course_name": null, "teacher_code": "STH", "teacher_name": null, "section": null, "raw_text": "EEE-1222 STH ECL-1" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "EEE-1222", "course_name": null, "teacher_code": "TCS", "teacher_name": null, "section": null, "raw_text": "EEE-1222 TCS ECL-1" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "EEE-1222", "course_name": null, "teacher_code": "STH", "teacher_name": null, "section": null, "raw_text": "EEE-1222 STH ECL-1" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "EEE-1222", "course_name": null, "teacher_code": "N3", "teacher_name": null, "section": null, "raw_text": "EEE-1222 N3 ECL-1" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "EEE-1222", "course_name": null, "teacher_code": "N2", "teacher_name": null, "section": null, "raw_text": "EEE-1222 N2 ECL-1" },
+      "7": { "start": "16:00", "end": "17:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Thursday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "2": { "start": "10:05", "end": "11:10", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "EEE-1222", "course_name": null, "teacher_code": "N3", "teacher_name": null, "section": null, "raw_text": "EEE-1222 N3 ECL-1" },
+      "4": { "start": "12:15", "end": "13:20", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "5": { "start": "13:50", "end": "14:55", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "EEE-1222", "course_name": null, "teacher_code": "N3", "teacher_name": null, "section": null, "raw_text": "EEE-1222 N3 ECL-1" },
+      "7": { "start": "16:00", "end": "17:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Friday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "2": { "start": "10:05", "end": "11:10", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "3": { "start": "11:10", "end": "12:15", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "4": { "start": "12:15", "end": "13:20", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "EEE-1222", "course_name": null, "teacher_code": "TCS", "teacher_name": null, "section": null, "raw_text": "EEE-1222 TCS ECL-1" },
+      "6": { "start": "14:55", "end": "16:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "7": { "start": "16:00", "end": "17:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    }
+  },
+  "verification": {
+    "status": "verified",
+    "unclear_items": [],
+    "notes": [
+      "This sheet's own title is 'ECL-1 Lab Routine- 2026', with a DAY / LAB NAME column layout rather than the 'LU Room Management' header seen on other rooms; academic_session was left null since no session/semester text (like 'Summer-2026(Tri)') appears anywhere on this sheet, only the year in the title. Slot-7 here ends at 05:00 PM, not 05:05 PM like other rooms' sheets - recorded exactly as printed.",
+      "building.code ('RAB') and room.floor ('2nd floor') came from the user's message, not the sheet - the sheet only prints 'ECL-1' (repeated down the LAB NAME column) with no building name or floor.",
+      "No cell on this sheet carries a booked/status label except Sunday, which uniquely reads 'CE BOOKED' above its course text - every other filled cell has no label at all. Status was inferred as 'booked' wherever text is present and 'free' wherever a cell is visually empty, matching the approach used for the PHY Lab sheet (which also had no per-cell labels).",
+      "Cells follow 'DEPT-#### TEACHER ECL-1' (e.g. 'EEE-1222 N2 ECL-1'): course_code took the 'DEPT-####' part, teacher_code the short code after it, and the trailing 'ECL-1' (a repeated lab reference) was left out of the structured fields but kept in raw_text. Sunday's cells instead read 'EEE 2172 (UMP) EEE LAB', parsed the same way with the teacher code taken from parentheses.",
+      "Saturday Slot 2 reads 'EEE-1222 STH ECL-19' - lab '19', not '1' (this sheet's own lab) - recorded exactly as printed; likely a typo in the source sheet.",
+      "Image has a bright reflective streak crossing Slot 5-7 in the region row and mild glare elsewhere; none of it obscured a schedule cell - all cells were legible after zooming in."
+    ]
+  }
+}
