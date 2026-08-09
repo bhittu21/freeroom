@@ -72,6 +72,12 @@ export default function RoomGrid({ rooms, buildings, floors }: RoomGridProps) {
         }
       }
       return { data: r, availability } as RoomWithStatus;
+    }).sort((a, b) => {
+      // Sort 'free' rooms first
+      if (a.availability.status === 'free' && b.availability.status !== 'free') return -1;
+      if (a.availability.status !== 'free' && b.availability.status === 'free') return 1;
+      // Secondary sort: alphabetically by room ID
+      return a.data.room.id.localeCompare(b.data.room.id);
     });
   }, [rooms, building, floor, timeMode, dateSelection, customDate, time, duration, nowTrigger]);
 
