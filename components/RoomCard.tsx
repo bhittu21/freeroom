@@ -12,7 +12,6 @@ export default function RoomCard({ roomWithStatus }: { roomWithStatus: RoomWithS
   
   // Format duration nicely
   const formatDuration = (mins: number) => {
-    if (mins > 1000) return 'Rest of the day';
     const h = Math.floor(mins / 60);
     const m = mins % 60;
     if (h > 0 && m > 0) return `${h}h ${m}m`;
@@ -52,7 +51,7 @@ export default function RoomCard({ roomWithStatus }: { roomWithStatus: RoomWithS
           {isFree && availableForMinutes !== undefined && (
             <div className="flex flex-col gap-1">
               <span className="text-sm font-medium text-slate-700">
-                Available for {formatDuration(availableForMinutes)}
+                {availableForMinutes > 1000 ? "Available" : `Available for ${formatDuration(availableForMinutes)}`}
               </span>
               {availableUntil && (
                 <div className="flex items-center gap-1.5 text-xs text-slate-500">
