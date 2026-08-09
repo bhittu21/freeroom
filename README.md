@@ -1,355 +1,169 @@
-````markdown
-# FreeRoom
+# 🏫 FreeRoom
 
-### Find a free classroom. Make the gap between classes easier.
+> **Find a free classroom. Make the gap between classes easier.**
+> *Built by students, for students.*
 
-FreeRoom is an open-source classroom availability system built specifically for **Leading University students**.
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css)
 
-When students have gaps between classes, finding a comfortable place to sit can be difficult, especially when the library is full. FreeRoom provides a simple way to check which classrooms are scheduled to be available at a particular time.
+FreeRoom is an open-source classroom availability system built specifically for **Leading University** students.
 
-The system reads room-wise university schedules and calculates classroom availability based on the selected date and time.
-
-> **Built by students, for students.**
-
----
-
-## What is FreeRoom?
-
-FreeRoom was created around a simple problem:
-
-> Students often have gaps between classes, but there may not be enough seats in the library or other common spaces.
-
-At the same time, many classrooms may be unused during those periods.
-
-FreeRoom helps students discover those available classrooms quickly instead of walking around campus looking for an empty room.
-
-The goal is simple:
-
-**Make better use of available campus spaces and make student life a little easier.**
+When students have gaps between classes, finding a comfortable place to sit can be difficult—especially when the library is full. FreeRoom solves this by providing a simple, lightning-fast way to check which classrooms are empty at any given time.
 
 ---
 
-## Features
+## 🤔 Why FreeRoom?
 
-- **Available Now** — Find classrooms that are currently free.
-- **Future Availability** — Search for rooms on future dates and times.
-- **Duration Search** — Find rooms available continuously for 30 minutes, 1 hour, 2 hours, or a custom duration.
-- **Time Range Search** — Find rooms that remain free throughout a selected period.
-- **Building Filters** — Filter between RAB and RKB.
-- **Floor Filters** — Filter rooms by floor.
-- **Room Details** — View a room's complete weekly schedule.
-- **Course Information** — View available course and teacher information from the schedule.
-- **Live Bangladesh Time** — Uses `Asia/Dhaka` for availability calculations.
-- **Schedule Transparency** — Original schedule sources can be provided for verification.
-- **Responsive Design** — Works across desktop and mobile devices.
-- **No Login Required** — Students can use the system immediately.
-- **Open Source** — Anyone can inspect, improve, and contribute to the project.
+FreeRoom was created around a simple problem: **Students often have gaps between classes, but campus seating is limited.** 
+
+Meanwhile, dozens of classrooms sit empty. Instead of wandering around campus testing door handles, FreeRoom helps you discover available rooms instantly. 
+
+**Our Goal:** Make better use of available campus spaces and make student life a little easier.
 
 ---
 
-## How It Works
+## ✨ Features
 
-FreeRoom does not guess whether a classroom is available.
-
-The system uses structured room schedules and calculates availability based on the requested date and time.
-
-```text
-University Room Schedule
-          ↓
-     Structured JSON
-          ↓
-   Availability Engine
-          ↓
-   Date / Time Filters
-          ↓
-      Room Results
-````
-
-For example, if a room has a class from:
-
-```text
-02:00 PM → 03:00 PM
-```
-
-the system will not consider that room available during that period.
-
-If a student searches for:
-
-```text
-02:00 PM → 04:00 PM
-```
-
-the room will only appear if it remains free for the **entire requested period**.
+- 🕒 **Available Now** — Instantly find classrooms that are currently free.
+- 📅 **Future Availability** — Search for rooms on future dates and specific times.
+- ⏳ **Duration Search** — Need a room for 30 mins, 1 hour, or 2 hours? Find rooms available continuously for your desired duration.
+- 🎯 **Time Range Search** — Find rooms that remain free throughout a selected period.
+- 🏢 **Building & Floor Filters** — Easily filter between **RAB** and **RKB**, and sort by floor.
+- 📊 **Room Details & Courses** — View a room's complete weekly schedule, including course and teacher info.
+- 🇧🇩 **Live Bangladesh Time** — Perfectly synced using `Asia/Dhaka` for accurate availability.
+- 📱 **Responsive Design** — Looks great and works flawlessly on desktop and mobile.
+- 🔓 **No Login Required** — Completely frictionless. Just open the app and search.
+- 📖 **Open Source** — Built transparently. Anyone can inspect, improve, and contribute!
 
 ---
 
-## Data & Source
+## ⚙️ How It Works
 
-The current system is based on room-wise schedule information collected for the relevant academic sessions.
-
-Room data is stored as individual JSON files and organized by building and floor.
+FreeRoom doesn't guess. The system uses structured room schedules and a custom Availability Engine to calculate exactly what's open.
 
 ```text
+📅 University Room Schedule
+          ↓
+📂 Structured JSON Data
+          ↓
+⚙️ Availability Engine
+          ↓
+🎛️ Date / Time Filters
+          ↓
+✅ Available Room Results
+Example: If a room has a class from 02:00 PM → 03:00 PM, the system flags it as occupied. If a student searches for a room from 02:00 PM → 04:00 PM, that room will not appear.
+
+📂 Data & Sources
+Data is stored locally as individual JSON files organized by building and floor. This makes the data incredibly easy to inspect, update, and maintain without needing a complex database.
+
+Plaintext
 json/
 ├── RAB/
 │   ├── 1st Floor/
-│   ├── 2nd Floor/
-│   ├── 3rd Floor/
-│   └── 4th Floor/
-│
+│   ├── 2nd Floor/ ...
 └── RKB/
     ├── 1st floor/
-    ├── 3rd floor/
-    └── 4th floor/
-```
+    ├── 3rd floor/ ...
+View Original Schedule Sources (Replace with your actual Drive link)
 
-Each room contains its own schedule information, making the data easy to inspect and maintain.
+Note: We maintain the original schedule images separately so users can cross-check our data.
 
-### Original Schedule Sources
+🛠️ Technology Stack
+FreeRoom intentionally uses a simple architecture so the project remains lightweight, transparent, and easy for students to contribute to.
 
-The original room schedule images are maintained separately so users can cross-check the information.
+Framework: Next.js
 
-**Google Drive Source:**
-[View Original Schedule Sources](GOOGLE_DRIVE_SOURCE_URL)
+Language: TypeScript
 
-> Replace `GOOGLE_DRIVE_SOURCE_URL` with the project's actual Google Drive source folder.
+Styling: Tailwind CSS
 
-Schedule information may change. FreeRoom is intended as a student utility and should not be treated as an official university scheduling system.
+Data: Local JSON
 
----
+Deployment: Vercel
 
-## Technology
+(There is currently no database or authentication system required!)
 
-FreeRoom intentionally uses a simple architecture so that the project remains easy to understand, maintain, and contribute to.
-
-### Stack
-
-* **Next.js**
-* **TypeScript**
-* **Tailwind CSS**
-* **Local JSON data**
-* **Vercel**
-
-There is currently no database or authentication system required for the core application.
-
-This keeps the project lightweight, transparent, and easy for students and developers to work with.
-
----
-
-## Project Structure
-
-```text
-FreeRoom/
-│
-├── json/
-│   ├── RAB/
-│   │   ├── 1st Floor/
-│   │   ├── 2nd Floor/
-│   │   ├── 3rd Floor/
-│   │   └── 4th Floor/
-│   │
-│   └── RKB/
-│       ├── 1st floor/
-│       ├── 3rd floor/
-│       └── 4th floor/
-│
-├── app/
-├── components/
-├── lib/
-├── public/
-├── package.json
-└── README.md
-```
-
-Each room has its own JSON schedule.
-
-This makes it possible to add or update room data without rebuilding a large centralized dataset.
-
----
-
-## Running Locally
+🚀 Running Locally
+Want to test it out or contribute? It's easy to get started:
 
 Clone the repository:
 
-```bash
-git clone https://github.com/bhittu21/freeroom.git
-```
+Bash
+git clone [https://github.com/bhittu21/freeroom.git](https://github.com/bhittu21/freeroom.git)
+Navigate into the project:
 
-Move into the project:
-
-```bash
+Bash
 cd freeroom
-```
-
 Install dependencies:
 
-```bash
+Bash
 npm install
-```
-
 Start the development server:
 
-```bash
+Bash
 npm run dev
-```
+Open the app:
+Visit http://localhost:3000 in your browser.
 
-Open the application at:
+To build for production:
 
-```text
-http://localhost:3000
-```
-
-### Production Build
-
-```bash
+Bash
 npm run build
-```
+🤝 Contributing
+FreeRoom is proudly open-source, and contributions from fellow students and developers are highly encouraged!
 
-The project is designed to be deployed on **Vercel**.
+You can help by:
 
----
+🎨 Improving the UI/UX
 
-## Contributing
+✨ Adding new features
 
-FreeRoom is open source, and contributions are welcome.
+🧮 Optimizing availability calculations
 
-You can contribute by:
+📅 Updating room data for new semesters
 
-* Improving the UI
-* Adding new features
-* Improving availability calculations
-* Adding or updating room data
-* Improving accessibility
-* Fixing bugs
-* Improving documentation
-* Reporting issues
-* Suggesting ideas
-* Helping make FreeRoom more useful for Leading University students
+🐛 Fixing bugs & reporting issues
 
-### Contribution Workflow
+Contribution Workflow
+Fork the repository.
 
-```text
-Fork
-  ↓
-Create a branch
-  ↓
-Make your changes
-  ↓
-Test locally
-  ↓
-Commit
-  ↓
-Open a Pull Request
-```
+Create a branch for your feature (git checkout -b feature/AmazingFeature).
 
-Please make sure that any changes to room schedules are based on reliable source information.
+Commit your changes (git commit -m 'Add some AmazingFeature').
 
----
+Push to the branch (git push origin feature/AmazingFeature).
 
-## Founders
+Open a Pull Request.
 
-FreeRoom was initiated and developed by two students of **65D, Leading University**.
+Please ensure any changes to room schedules are based on reliable university sources.
 
-### Sheikh Abir Ali
+👨‍💻 Meet the Founders
+FreeRoom was initiated and developed by two students of 65D, Leading University.
 
-**Automation Engineer & WordPress Developer**
+Sheikh Abir Ali
+Automation Engineer & WordPress Developer
 
-Sheikh Abir Ali works across automation, web development, SEO, WordPress, Chrome extensions, and business systems. His focus is on building practical digital solutions, workflow automation, and technology that solves real-world problems.
+Abir works across automation, web development, SEO, WordPress, Chrome extensions, and business systems. His focus is on building practical digital solutions and technology that solves real-world problems. He is also the Co-Founder of Tresify Lab.
 
-He is also the Co-Founder of **Tresify Lab** and works on technology-driven projects involving automation, web development, and digital systems.
+🔗 LinkedIn (Add your actual link here)
 
-**[LinkedIn](https://www.linkedin.com/in/sheikhabirali/)**
+Thouhid Azim Munna
+Tech & AI Enthusiast
 
----
+Thouhid is driven by curiosity, critical thinking, and continuous learning. His interests span programming, AI, psychology, philosophy, and the interaction between technology and human systems. He is currently focused on AI, competitive programming, and practical tech projects.
 
-### Thouhid Azim Munna
+🔗 LinkedIn (Add your actual link here)
 
-**Tech & AI Enthusiast**
+⚠️ Disclaimer
+FreeRoom is an independent student project and is not an official system of Leading University.
 
-Thouhid Azim Munna is driven by curiosity, critical thinking, and continuous learning. His interests include programming, AI, IT, psychology, philosophy, nature, and the interaction between technological and human systems.
+Availability is calculated based on static schedule data. University schedules may change, classes may be rescheduled, and rooms may be occupied for exams, clubs, or events not listed on the standard timetable.
 
-He is currently focused on developing skills in **AI and competitive programming**, while exploring research, collaboration, and practical technology projects.
+Always verify important information against official sources. FreeRoom does not guarantee that a classroom will physically be available at any given time.
 
-**[LinkedIn](https://www.linkedin.com/in/thouhid-azim-b326a9323/)**
+📄 License
+Distributed under the MIT License. Copyright © 2026 Sheikh Abir Ali & Thouhid Azim Munna.
 
----
-
-## Built for Leading University
-
-FreeRoom was created specifically with the **Leading University student community** in mind.
-
-The project is designed to solve a simple but practical campus problem: finding a comfortable place to stay during gaps between classes.
-
-Rather than replacing existing university facilities, FreeRoom aims to help students discover spaces that may already be available.
-
-> **Built by students, for students.**
-
----
-
-## Open Source
-
-FreeRoom is an open-source project.
-
-The complete source code is publicly available on GitHub:
-
-**[GitHub Repository](https://github.com/bhittu21/freeroom)**
-
-Students, developers, and contributors are welcome to:
-
-* Explore the code
-* Report issues
-* Suggest improvements
-* Submit pull requests
-* Improve the user experience
-* Help maintain room data
-* Build new features
-
-If you find the project useful, consider contributing or sharing it with other Leading University students.
-
----
-
-## Disclaimer
-
-FreeRoom is an **independent student project** and is **not an official system of Leading University**.
-
-The availability information is calculated from the room schedule data included in this project.
-
-University schedules may change, classes may be rescheduled, and rooms may be occupied for purposes not represented in the stored timetable.
-
-Therefore:
-
-> **Always verify important information against the original schedule source before relying on it.**
-
-FreeRoom does not guarantee that a classroom will physically be available at any particular time.
-
----
-
-## License
-
-FreeRoom is released under the **MIT License**.
-
-Copyright © 2026 **Sheikh Abir Ali & Thouhid Azim Munna**
-
-You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the terms of the MIT License.
-
-See the [`LICENSE`](LICENSE) file for the complete license text.
-
----
-
-## Project Links
-
-* **[GitHub Repository](https://github.com/bhittu21/freeroom)**
-* **[Original Schedule Sources](GOOGLE_DRIVE_SOURCE_URL)**
-* **[Sheikh Abir Ali — LinkedIn](https://www.linkedin.com/in/sheikhabirali/)**
-* **[Thouhid Azim Munna — LinkedIn](https://www.linkedin.com/in/thouhid-azim-b326a9323/)**
-
----
-
-## FreeRoom
-
-**Open-source classroom availability for Leading University students.**
-
-> Built by students, for students.
-
-```
-```
+See LICENSE for more information.
