@@ -24,3 +24,57 @@ body {
     scrollbar-width: none;  /* Firefox */
   }
 }
+
+@keyframes border-spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animated-filter-border {
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  border-radius: 0.75rem; /* rounded-xl */
+}
+
+.animated-filter-border::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(transparent, transparent, transparent, #3b82f6);
+  animation: border-spin 4s linear infinite;
+  z-index: -2;
+}
+
+.animated-filter-border::after {
+  content: '';
+  position: absolute;
+  inset: 1.5px;
+  background: #f1f5f9; /* slate-100 */
+  border-radius: calc(0.75rem - 1.5px);
+  z-index: -1;
+  transition: background-color 0.2s;
+}
+
+/* Hover state for the button */
+.animated-filter-border:hover::after {
+  background: #e2e8f0; /* slate-200 */
+}
+
+/* Stop animation when panel is open */
+.animated-filter-border.animation-paused::before {
+  animation: none;
+  background: #cbd5e1; /* slate-300 static border */
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .animated-filter-border::before {
+    animation: none;
+    background: #cbd5e1;
+  }
+}

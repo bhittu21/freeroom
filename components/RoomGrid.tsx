@@ -83,19 +83,32 @@ export default function RoomGrid({ rooms, buildings, floors }: RoomGridProps) {
 
   const availableCount = roomsWithStatus.filter(r => r.availability.status === 'free').length;
 
+  const activeFiltersCount = 
+    (building !== 'All' ? 1 : 0) + 
+    (floor !== 'All' ? 1 : 0) + 
+    (timeMode !== 'Now' ? 1 : 0);
+
   return (
     <div className="flex flex-col lg:flex-row gap-8 items-start">
       {/* Mobile filter toggle */}
-      <div className="w-full lg:hidden flex justify-between items-center bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
-        <div className="font-semibold text-slate-800">
-          {availableCount} rooms free
+      <div className="w-full lg:hidden flex flex-col gap-4 bg-white p-4 rounded-2xl border border-slate-200 shadow-sm">
+        <div className="flex justify-between items-center">
+          <div className="font-semibold text-slate-800">
+            {availableCount} rooms free
+          </div>
         </div>
+        
         <button 
           onClick={() => setIsMobileFiltersOpen(true)}
-          className="flex items-center gap-2 bg-slate-100 px-4 py-2 rounded-xl text-sm font-semibold hover:bg-slate-200 transition-colors"
+          className={`animated-filter-border flex items-center justify-center gap-2 w-full h-12 text-sm font-semibold text-slate-700 ${isMobileFiltersOpen ? 'animation-paused' : ''}`}
         >
-          <Filter className="w-4 h-4" />
-          Filters
+          <Filter className="w-4 h-4 z-10" />
+          <span className="z-10">Filter Rooms</span>
+          {activeFiltersCount > 0 && (
+            <span className="z-10 ml-1 flex items-center justify-center w-5 h-5 bg-slate-900 text-white rounded-full text-[10px] font-bold">
+              {activeFiltersCount}
+            </span>
+          )}
         </button>
       </div>
 
