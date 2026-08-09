@@ -12,7 +12,7 @@ export default function Header() {
           </div>
           <div className="flex flex-col">
             <span className="font-bold text-xl leading-none text-slate-900 tracking-tight">FreeRoom</span>
-            <span className="text-[10px] font-medium text-slate-500 uppercase tracking-widest mt-1">University utility</span>
+            <span className="text-[10px] font-medium text-slate-500 uppercase tracking-widest mt-1">Leading University</span>
           </div>
         </Link>
 
