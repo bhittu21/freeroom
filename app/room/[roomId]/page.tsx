@@ -12,16 +12,18 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function RoomPage({ params }: { params: { roomId: string } }) {
+export default async function RoomPage({ params }: { params: Promise<{ roomId: string }> }) {
   // Decode the URL param in case it has special characters
-  const decodedId = decodeURIComponent(params.roomId);
+  const resolvedParams = await params;
+  const decodedId = decodeURIComponent(resolvedParams.roomId);
   const room = getRoomById(decodedId);
 
   if (!room) {
     notFound();
   }
 
-  const hasSource = false; // We can extract this if JSON provides it later, e.g. room.verification?.source_url
+  // The Google Drive folder containing the verified source JSON schedules
+  const sourceUrl = "https://drive.google.com/drive/folders/1tKrjYi5o5Eh_atFwKxGb0s0sTE7E4oOk?usp=sharing";
 
   return (
     <div className="flex-1 w-full bg-slate-50 font-sans text-slate-900 pb-20">
@@ -52,8 +54,8 @@ export default function RoomPage({ params }: { params: { roomId: string } }) {
                   {room.academic_session}
                 </div>
               )}
-              {hasSource ? (
-                <a href="#" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors">
+              {sourceUrl ? (
+                <a href={sourceUrl} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-sm font-semibold text-blue-600 hover:text-blue-800 transition-colors">
                   View Original Schedule
                   <ExternalLink className="w-4 h-4" />
                 </a>
