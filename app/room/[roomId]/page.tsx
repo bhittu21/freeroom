@@ -1,4 +1,5 @@
 import { getRoomById, getAllRooms } from '@/lib/rooms';
+import { roomSources } from '@/lib/sources';
 import Header from '@/components/Header';
 import ScheduleView from '@/components/ScheduleView';
 import { notFound } from 'next/navigation';
@@ -22,8 +23,8 @@ export default async function RoomPage({ params }: { params: Promise<{ roomId: s
     notFound();
   }
 
-  // The Google Drive folder containing the verified source JSON schedules
-  const sourceUrl = "https://drive.google.com/drive/folders/1tKrjYi5o5Eh_atFwKxGb0s0sTE7E4oOk?usp=sharing";
+  // Retrieve the exact Google Drive file for this room
+  const sourceUrl = roomSources[decodedId];
 
   return (
     <div className="flex-1 w-full bg-slate-50 font-sans text-slate-900 pb-20">
