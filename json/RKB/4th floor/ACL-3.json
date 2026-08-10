@@ -1,0 +1,91 @@
+{
+  "building": { "code": "RKB", "name": "Rabeya Khatun Bhaban", "number": "1" },
+  "room": { "id": "ACL-3", "number": null, "floor": "4th floor" },
+  "academic_session": "Summer-2026(Tri)/ Fall-2026(Bi)",
+  "time_slots": {
+    "1": { "start": "09:00", "end": "10:05" },
+    "2": { "start": "10:05", "end": "11:10" },
+    "3": { "start": "11:10", "end": "12:15" },
+    "4": { "start": "12:15", "end": "13:20" },
+    "5": { "start": "13:50", "end": "14:55" },
+    "6": { "start": "14:55", "end": "16:00" },
+    "7": { "start": "16:00", "end": "17:05" }
+  },
+  "break": { "start": "13:20", "end": "13:50" },
+  "schedule": {
+    "Sunday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "CSE-2212", "course_name": null, "teacher_code": "MMR", "teacher_name": null, "section": null, "raw_text": "CSE-2212 MMR ACL-3" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "CSE-3112", "course_name": null, "teacher_code": "JAC", "teacher_name": null, "section": null, "raw_text": "CSE-3112 JAC ACL-3" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CSE-3116", "course_name": null, "teacher_code": "AFR", "teacher_name": null, "section": null, "raw_text": "CSE-3116 AFR ACL-3" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "CSE-3116", "course_name": null, "teacher_code": "AFR", "teacher_name": null, "section": null, "raw_text": "CSE-3116 AFR ACL-3" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "CSE-3116", "course_name": null, "teacher_code": "AFR", "teacher_name": null, "section": null, "raw_text": "CSE-3116 AFR ACL-3" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "GED-1262", "course_name": null, "teacher_code": "TJK", "teacher_name": null, "section": null, "raw_text": "GED-1262 TJK ACL-3" },
+      "7": { "start": "16:00", "end": "17:05", "status": "booked", "department": null, "course_code": "CSE-3112", "course_name": null, "teacher_code": "JAC", "teacher_name": null, "section": null, "raw_text": "CSE-3112 JAC ACL-3" }
+    },
+    "Monday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "GED-1262", "course_name": null, "teacher_code": "NI", "teacher_name": null, "section": null, "raw_text": "GED-1262 NI ACL-3" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "CSE-2112", "course_name": null, "teacher_code": "ABM", "teacher_name": null, "section": null, "raw_text": "CSE-2112 ABM ACL-3" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CSE-3212", "course_name": null, "teacher_code": "FBM", "teacher_name": null, "section": null, "raw_text": "CSE-3212 FBM ACL-3" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "CSE-3214", "course_name": null, "teacher_code": "SMD", "teacher_name": null, "section": null, "raw_text": "CSE-3214 SMD ACL-3" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "CSE-3112", "course_name": null, "teacher_code": "JAC", "teacher_name": null, "section": null, "raw_text": "CSE-3112 JAC ACL-3" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "CSE-2112", "course_name": null, "teacher_code": "SPJ", "teacher_name": null, "section": null, "raw_text": "CSE-2112 SPJ ACL-3" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "-" }
+    },
+    "Tuesday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "CSE-1102", "course_name": null, "teacher_code": "MJR", "teacher_name": null, "section": null, "raw_text": "CSE-1102 MJR ACL-3" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "CSE-3212", "course_name": null, "teacher_code": "NJN", "teacher_name": null, "section": null, "raw_text": "CSE-3212 NJN ACL-3" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "GED-1262", "course_name": null, "teacher_code": "NI", "teacher_name": null, "section": null, "raw_text": "GED-1262 NI ACL-3" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "CSE-3212", "course_name": null, "teacher_code": "NJN", "teacher_name": null, "section": null, "raw_text": "CSE-3212 NJN ACL-3" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "CSE-3214", "course_name": null, "teacher_code": "SMD", "teacher_name": null, "section": null, "raw_text": "CSE-3214 SMD ACL-3" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "CSE-3116", "course_name": null, "teacher_code": "AFR", "teacher_name": null, "section": null, "raw_text": "CSE-3116 AFR ACL-3" },
+      "7": { "start": "16:00", "end": "17:05", "status": "booked", "department": null, "course_code": "CSE-1102", "course_name": null, "teacher_code": "SAZ", "teacher_name": null, "section": null, "raw_text": "CSE-1102 SAZ ACL-3" }
+    },
+    "Wednesday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "CSE-1212", "course_name": null, "teacher_code": "SAZ", "teacher_name": null, "section": null, "raw_text": "CSE-1212 SAZ ACL-3" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "CSE-3116", "course_name": null, "teacher_code": "NDK", "teacher_name": null, "section": null, "raw_text": "CSE-3116 NDK ACL-3" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CSE-1102", "course_name": null, "teacher_code": "JKH", "teacher_name": null, "section": null, "raw_text": "CSE-1102 JKH ACL-3" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "CSE-3214", "course_name": null, "teacher_code": "SMD", "teacher_name": null, "section": null, "raw_text": "CSE-3214 SMD ACL-3" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "CSE-3214", "course_name": null, "teacher_code": "SMD", "teacher_name": null, "section": null, "raw_text": "CSE-3214 SMD ACL-3" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "GED-1262", "course_name": null, "teacher_code": "TJK", "teacher_name": null, "section": null, "raw_text": "GED-1262 TJK ACL-3" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "-" }
+    },
+    "Thursday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "-" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "CSE-3212", "course_name": null, "teacher_code": "FBM", "teacher_name": null, "section": null, "raw_text": "CSE-3212 FBM ACL-3" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CSE-3212", "course_name": null, "teacher_code": "NJN", "teacher_name": null, "section": null, "raw_text": "CSE-3212 NJN ACL-3" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "CSE-3214", "course_name": null, "teacher_code": "SBT", "teacher_name": null, "section": null, "raw_text": "CSE-3214 SBT ACL-3" },
+      "5": { "start": "13:50", "end": "14:55", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "-" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "CSE-1102", "course_name": null, "teacher_code": "JKH", "teacher_name": null, "section": null, "raw_text": "CSE-1102 JKH ACL-3" },
+      "7": { "start": "16:00", "end": "17:05", "status": "booked", "department": null, "course_code": "CSE-2112", "course_name": null, "teacher_code": "SBT", "teacher_name": null, "section": null, "raw_text": "CSE-2112 SBT ACL-3" }
+    },
+    "Friday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "CSE-3212", "course_name": null, "teacher_code": "NJN", "teacher_name": null, "section": null, "raw_text": "CSE-3212 NJN ACL-3" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "CSE-3212", "course_name": null, "teacher_code": "NJN", "teacher_name": null, "section": null, "raw_text": "CSE-3212 NJN ACL-3" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CSE-3212", "course_name": null, "teacher_code": "NJN", "teacher_name": null, "section": null, "raw_text": "CSE-3212 NJN ACL-3" },
+      "4": { "start": "12:15", "end": "13:20", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "-" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "CSE-3212", "course_name": null, "teacher_code": "NJN", "teacher_name": null, "section": null, "raw_text": "CSE-3212 NJN ACL-3" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "CSE-3212", "course_name": null, "teacher_code": "NJN", "teacher_name": null, "section": null, "raw_text": "CSE-3212 NJN ACL-3" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "-" }
+    },
+    "Saturday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "-" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "CSE-3212", "course_name": null, "teacher_code": "NJN", "teacher_name": null, "section": null, "raw_text": "CSE-3212 NJN ACL-3" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "CSE-1102", "course_name": null, "teacher_code": "MJR", "teacher_name": null, "section": null, "raw_text": "CSE-1102 MJR ACL-3" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "CSE-3214", "course_name": null, "teacher_code": "AFZ", "teacher_name": null, "section": null, "raw_text": "CSE-3214 AFZ ACL-3" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "CSE-3212", "course_name": null, "teacher_code": "NJN", "teacher_name": null, "section": null, "raw_text": "CSE-3212 NJN ACL-3" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "GED-1262", "course_name": null, "teacher_code": "NI", "teacher_name": null, "section": null, "raw_text": "GED-1262 NI ACL-3" },
+      "7": { "start": "16:00", "end": "17:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": "-" }
+    }
+  },
+  "verification": {
+    "status": "verified",
+    "unclear_items": [],
+    "notes": [
+      "Same clean digital-table format as ACL-1/ACL-2, titled 'ACL -3:', with no 'LU Room Management' banner or session text - academic_session left null. No location was given in this message, so building and room.floor were left null.",
+      "The Slot 3 header again reads '11:10 - 12:15 AM' (should be PM going by the sequence) - recorded as 11:10-12:15 in 24-hour form, same correction applied to ACL-1/ACL-2.",
+      "Every booked cell follows 'DEPT-#### TEACHER ACL-3'; course_code took the 'DEPT-####' part, teacher_code the short code after it, and the trailing 'ACL-3' was left out of the structured fields but kept in raw_text.",
+      "Cells with a literal '-' (Monday Slot 7, Wednesday Slot 7, Thursday Slot 1 & 5, Friday Slot 4 & 7, Saturday Slot 1 & 7) were recorded as status 'free' with raw_text '-', distinguishing them from genuinely blank cells seen on other sheets.",
+      "The BREAK column has no time range in the body rows; its start/end come from the header row and are recorded at the top level only, not per day."
+    ]
+  }
+}
