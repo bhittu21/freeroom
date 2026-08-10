@@ -51,7 +51,7 @@ export interface RoomData {
 export type DayOfWeek = "Sunday" | "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday" | "Saturday";
 
 // Normalizes availability states
-export type RoomStatus = "free" | "booked" | "unknown";
+export type RoomStatus = "free" | "possibly_free" | "booked" | "unknown";
 
 export interface AvailabilityResult {
   status: RoomStatus;

@@ -1,8 +1,24 @@
-import { RoomData, AvailabilityResult, ScheduleEntry, DayOfWeek } from './types';
+import { RoomData, AvailabilityResult, ScheduleEntry, DayOfWeek, RoomStatus } from './types';
 import { parseTimeString, isOverlapping, getCurrentDhakaDate, getTodayDhakaDateString } from './time';
 import { addMinutes, format, isBefore, isAfter, isEqual, differenceInMinutes } from 'date-fns';
 
 const DAYS_OF_WEEK: DayOfWeek[] = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+/**
+ * Analyzes a schedule entry and returns its actual RoomStatus.
+ */
+export function getScheduleEntryStatus(entry: ScheduleEntry): RoomStatus {
+  if (entry.status !== 'booked') return entry.status as RoomStatus;
+  
+  const hasCourse = !!entry.course_code || !!entry.course_name;
+  const hasTeacher = !!entry.teacher_code || !!entry.teacher_name;
+  
+  if (!hasCourse && !hasTeacher && (entry.department || entry.raw_text?.toLowerCase().includes('booked'))) {
+    return 'possibly_free';
+  }
+  
+  return 'booked';
+}
 
 /**
  * Calculates availability for a given room and time range.
@@ -33,20 +49,27 @@ export function checkRoomAvailability(
 
   // Iterate over slots and check for overlaps
   let isBooked = false;
+  let isPossiblyFree = false;
   let overlappingEntry: ScheduleEntry | undefined;
 
   for (const slotKey of Object.keys(scheduleForDay)) {
     const entry = scheduleForDay[slotKey];
-    if (entry.status !== 'booked') continue; // Only care about booked slots
+    if (entry.status !== 'booked') continue; // Only care about booked slots from raw data
 
     const schedStart = parseTimeString(entry.start, dateStr);
     const schedEnd = parseTimeString(entry.end, dateStr);
 
     if (schedStart && schedEnd) {
       if (isOverlapping(reqStart, reqEnd, schedStart, schedEnd)) {
-        isBooked = true;
-        overlappingEntry = entry;
-        break;
+        const actualStatus = getScheduleEntryStatus(entry);
+        if (actualStatus === 'booked') {
+          isBooked = true;
+          overlappingEntry = entry;
+          break; // Booked takes absolute priority
+        } else if (actualStatus === 'possibly_free') {
+          isPossiblyFree = true;
+          if (!overlappingEntry) overlappingEntry = entry;
+        }
       }
     }
   }
@@ -54,6 +77,14 @@ export function checkRoomAvailability(
   if (isBooked) {
     return {
       status: 'booked',
+      currentEntry: overlappingEntry,
+      bookedUntil: overlappingEntry?.end
+    };
+  }
+
+  if (isPossiblyFree) {
+    return {
+      status: 'possibly_free',
       currentEntry: overlappingEntry,
       bookedUntil: overlappingEntry?.end
     };
@@ -67,10 +98,13 @@ export function checkRoomAvailability(
     const entry = scheduleForDay[slotKey];
     if (entry.status !== 'booked') continue;
 
-    const schedStart = parseTimeString(entry.start, dateStr);
-    if (schedStart && (isAfter(schedStart, reqStart) || isEqual(schedStart, reqStart))) {
-      if (!nextBookedStart || isBefore(schedStart, nextBookedStart)) {
-        nextBookedStart = schedStart;
+    const actualStatus = getScheduleEntryStatus(entry);
+    if (actualStatus === 'booked' || actualStatus === 'possibly_free') {
+      const schedStart = parseTimeString(entry.start, dateStr);
+      if (schedStart && (isAfter(schedStart, reqStart) || isEqual(schedStart, reqStart))) {
+        if (!nextBookedStart || isBefore(schedStart, nextBookedStart)) {
+          nextBookedStart = schedStart;
+        }
       }
     }
   }

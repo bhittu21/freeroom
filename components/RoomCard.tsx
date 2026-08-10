@@ -8,6 +8,7 @@ export default function RoomCard({ roomWithStatus }: { roomWithStatus: RoomWithS
   const { status, availableForMinutes, availableUntil, bookedUntil } = availability;
 
   const isFree = status === 'free';
+  const isPossiblyFree = status === 'possibly_free';
   const isBooked = status === 'booked';
   
   // Format duration nicely
@@ -35,14 +36,15 @@ export default function RoomCard({ roomWithStatus }: { roomWithStatus: RoomWithS
           <div className={cn(
             "flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold uppercase tracking-wide",
             isFree ? "bg-emerald-50 text-emerald-700 ring-1 ring-emerald-600/20" : 
+            isPossiblyFree ? "bg-amber-50 text-amber-700 ring-1 ring-amber-600/20" :
             isBooked ? "bg-rose-50 text-rose-700 ring-1 ring-rose-600/20" : 
             "bg-slate-100 text-slate-600 ring-1 ring-slate-400/20"
           )}>
             <div className={cn(
               "w-2 h-2 rounded-full",
-              isFree ? "bg-emerald-500" : isBooked ? "bg-rose-500" : "bg-slate-400"
+              isFree ? "bg-emerald-500" : isPossiblyFree ? "bg-amber-500" : isBooked ? "bg-rose-500" : "bg-slate-400"
             )} />
-            {isFree ? "FREE" : isBooked ? "CLASS ONGOING" : "STATUS UNKNOWN"}
+            {isFree ? "FREE" : isPossiblyFree ? "POSSIBLY FREE" : isBooked ? "CLASS ONGOING" : "STATUS UNKNOWN"}
           </div>
         </div>
 
@@ -59,6 +61,14 @@ export default function RoomCard({ roomWithStatus }: { roomWithStatus: RoomWithS
                   <span>Until {availableUntil}</span>
                 </div>
               )}
+            </div>
+          )}
+
+          {isPossiblyFree && (
+            <div className="flex flex-col gap-1 mt-1">
+              <span className="text-sm font-medium text-amber-800/80 leading-snug">
+                Room is allocated/reserved, but no specific class information is listed.
+              </span>
             </div>
           )}
 

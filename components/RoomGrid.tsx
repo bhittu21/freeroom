@@ -76,6 +76,13 @@ export default function RoomGrid({ rooms, buildings, floors }: RoomGridProps) {
       // Sort 'free' rooms first
       if (a.availability.status === 'free' && b.availability.status !== 'free') return -1;
       if (a.availability.status !== 'free' && b.availability.status === 'free') return 1;
+      // Sort 'possibly_free' rooms second
+      if (a.availability.status === 'possibly_free' && b.availability.status !== 'possibly_free') return -1;
+      if (a.availability.status !== 'possibly_free' && b.availability.status === 'possibly_free') return 1;
+      // Sort 'booked' rooms third
+      if (a.availability.status === 'booked' && b.availability.status !== 'booked') return -1;
+      if (a.availability.status !== 'booked' && b.availability.status === 'booked') return 1;
+
       // Secondary sort: alphabetically by room ID
       return a.data.room.id.localeCompare(b.data.room.id);
     });
