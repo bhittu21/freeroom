@@ -81,7 +81,7 @@ json/
     ├── 3rd floor/ ...
 ```
 
-📁 [View Original Schedule Sources](#) *(replace `#` with your Google Drive link)*
+📁 [View Original Schedule Sources](https://drive.google.com/drive/folders/1tKrjYi5o5Eh_atFwKxGb0s0sTE7E4oOk)
 
 > **Note:** We maintain the original schedule images separately so users can cross-check our data.
 
