@@ -1,6 +1,6 @@
 {
   "building": { "code": "RAB", "name": "Ragib Ali Bhaban", "number": "2" },
-  "room": { "id": "Gallery-2", "number": null, "floor": "2nd floor" },
+  "room": { "id": "Gallery-2", "number": null, "floor": "3rd floor" },
   "academic_session": "Summer-2026(Tri)/ Fall-2026(Bi)",
   "time_slots": {
     "1": { "start": "09:00", "end": "10:05" },

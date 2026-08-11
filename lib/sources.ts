@@ -11,7 +11,7 @@ export const roomSources: Record<string, string> = {
   "RAB-206": "https://drive.google.com/file/d/1UoVOFx0TgHIfsyaAWuaFSkwy_TtuH8ox/view",
   "ECL-1": "https://drive.google.com/file/d/1cCpNjZn6v0Cd9CnFILfWwnchsT5vfPQ-/view",
   "ECL 2": "https://drive.google.com/file/d/1Ousk8TzTC8kXoDpDV-sOxbTRIYH1DN94/view",
-  "Gallery-2": "https://drive.google.com/file/d/1keS-r405sYDubmN6-F-OK5-2Mz-Ih7YO/view",
+  "Gallery-2": "https://drive.google.com/file/d/1cDEqulOESmxGEXul6UgUC6A0FCNRcBzK/view?usp=drive_link",
   "Simulation Lab": "https://drive.google.com/file/d/1mrtDhB_1a7mipbppagmaDETNmnF38C42/view",
 
   // RAB - 3rd Floor
@@ -25,6 +25,8 @@ export const roomSources: Record<string, string> = {
   "RAB-401": "https://drive.google.com/file/d/1dVD0rUPThCXKg1rWLs2eVYNIlIrUcXHV/view",
   "RAB-402": "https://drive.google.com/file/d/1-nW25PnwXZRRfwgqkewck_DbhngMp4H6/view",
   "RAB-403": "https://drive.google.com/file/d/1tAhmJQ5FiQwQk-XwOQxDueXkzVYOi7Ff/view",
+  "RAB-G3": "https://drive.google.com/file/d/17bu_FUFw_mtQSz6jji2WAWGM2iG7vIih/view?usp=sharing",
+  "Gallery-3": "https://drive.google.com/file/d/17bu_FUFw_mtQSz6jji2WAWGM2iG7vIih/view?usp=sharing",
 
   // RKB - 1st Floor
   "RKB-103": "https://drive.google.com/file/d/1789SBJlB_ILWOI8Q-p9oVEwxgwaPxNLs/view",
@@ -44,6 +46,8 @@ export const roomSources: Record<string, string> = {
   "RKB-405": "https://drive.google.com/file/d/15gZSN6zl2jWkbSaI15lrjpG1hzh_RfsD/view",
   "RKB-406": "https://drive.google.com/file/d/1gFFgR_1bVrvGs-ZQPlhJaLuIpZdmyc6Q/view",
   "RKB-407": "https://drive.google.com/file/d/172Z0yCkouHR3i18DWCuS3gYeFQN9_WrU/view",
+  "RKB-GL": "https://drive.google.com/file/d/1cNV0n-E13_8oEcJD6isM1vVEofsY7_-Z/view?usp=drive_link",
+  "General Lab": "https://drive.google.com/file/d/1cNV0n-E13_8oEcJD6isM1vVEofsY7_-Z/view?usp=drive_link",
 
   // Missing Mappings additions
   "RAB-NL": "https://drive.google.com/file/d/16Hu2GoursMDg012RmfOJ1cjmG_2tJHOF/view?usp=drive_link",

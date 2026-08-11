@@ -7,6 +7,7 @@
 ![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?logo=vercel)](https://freeroom-lu.vercel.app/)
 
 FreeRoom is an open-source classroom availability system built specifically for **Leading University** students.
 
@@ -16,9 +17,9 @@ When students have gaps between classes, finding a comfortable place to sit can 
 
 ## 🤔 Why FreeRoom?
 
-FreeRoom was created around a simple problem: **Students often have gaps between classes, but campus seating is limited.** 
+FreeRoom was created around a simple problem: **Students often have gaps between classes, but campus seating is limited.**
 
-Meanwhile, dozens of classrooms sit empty. Instead of wandering around campus testing door handles, FreeRoom helps you discover available rooms instantly. 
+Meanwhile, dozens of classrooms sit empty. Instead of wandering around campus testing door handles, FreeRoom helps you discover available rooms instantly.
 
 **Our Goal:** Make better use of available campus spaces and make student life a little easier.
 
@@ -39,11 +40,18 @@ Meanwhile, dozens of classrooms sit empty. Instead of wandering around campus te
 
 ---
 
+## 🎥 See FreeRoom in Action
+
+- 📹 [Promo Video — Facebook](https://www.facebook.com/sheikhabirali21/videos/dont-use-freeroom/1777869076793824/)
+- 💼 [Launch Post — LinkedIn](https://www.linkedin.com/posts/sheikhabirali_it-was-a-great-experience-to-build-the-complete-ugcPost-7492978865179447298-IdkZ/)
+
+---
+
 ## ⚙️ How It Works
 
 FreeRoom doesn't guess. The system uses structured room schedules and a custom Availability Engine to calculate exactly what's open.
 
-```text
+```
 📅 University Room Schedule
           ↓
 📂 Structured JSON Data
@@ -53,12 +61,17 @@ FreeRoom doesn't guess. The system uses structured room schedules and a custom A
 🎛️ Date / Time Filters
           ↓
 ✅ Available Room Results
-Example: If a room has a class from 02:00 PM → 03:00 PM, the system flags it as occupied. If a student searches for a room from 02:00 PM → 04:00 PM, that room will not appear.
+```
 
-📂 Data & Sources
+**Example:** If a room has a class from 02:00 PM → 03:00 PM, the system flags it as occupied. If a student searches for a room from 02:00 PM → 04:00 PM, that room will not appear.
+
+---
+
+## 📂 Data & Sources
+
 Data is stored locally as individual JSON files organized by building and floor. This makes the data incredibly easy to inspect, update, and maintain without needing a complex database.
 
-Plaintext
+```
 json/
 ├── RAB/
 │   ├── 1st Floor/
@@ -66,104 +79,118 @@ json/
 └── RKB/
     ├── 1st floor/
     ├── 3rd floor/ ...
-View Original Schedule Sources (Replace with your actual Drive link)
+```
 
-Note: We maintain the original schedule images separately so users can cross-check our data.
+📁 [View Original Schedule Sources](#) *(replace `#` with your Google Drive link)*
 
-🛠️ Technology Stack
+> **Note:** We maintain the original schedule images separately so users can cross-check our data.
+
+---
+
+## 🛠️ Technology Stack
+
 FreeRoom intentionally uses a simple architecture so the project remains lightweight, transparent, and easy for students to contribute to.
 
-Framework: Next.js
+- **Framework:** Next.js
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Data:** Local JSON
+- **Deployment:** Vercel
 
-Language: TypeScript
+*(There is currently no database or authentication system required!)*
 
-Styling: Tailwind CSS
+---
 
-Data: Local JSON
+## 🚀 Running Locally
 
-Deployment: Vercel
-
-(There is currently no database or authentication system required!)
-
-🚀 Running Locally
 Want to test it out or contribute? It's easy to get started:
 
-Clone the repository:
+1. **Clone the repository:**
+```bash
+   git clone https://github.com/bhittu21/freeroom.git
+```
 
-Bash
-git clone [https://github.com/bhittu21/freeroom.git](https://github.com/bhittu21/freeroom.git)
-Navigate into the project:
+2. **Navigate into the project:**
+```bash
+   cd freeroom
+```
 
-Bash
-cd freeroom
-Install dependencies:
+3. **Install dependencies:**
+```bash
+   npm install
+```
 
-Bash
-npm install
-Start the development server:
+4. **Start the development server:**
+```bash
+   npm run dev
+```
 
-Bash
-npm run dev
-Open the app:
-Visit http://localhost:3000 in your browser.
+5. **Open the app:**
+   Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 To build for production:
-
-Bash
+```bash
 npm run build
-🤝 Contributing
+```
+
+---
+
+## 🤝 Contributing
+
 FreeRoom is proudly open-source, and contributions from fellow students and developers are highly encouraged!
 
 You can help by:
 
-🎨 Improving the UI/UX
+- 🎨 Improving the UI/UX
+- ✨ Adding new features
+- 🧮 Optimizing availability calculations
+- 📅 Updating room data for new semesters
+- 🐛 Fixing bugs & reporting issues
 
-✨ Adding new features
+### Contribution Workflow
 
-🧮 Optimizing availability calculations
-
-📅 Updating room data for new semesters
-
-🐛 Fixing bugs & reporting issues
-
-Contribution Workflow
-Fork the repository.
-
-Create a branch for your feature (git checkout -b feature/AmazingFeature).
-
-Commit your changes (git commit -m 'Add some AmazingFeature').
-
-Push to the branch (git push origin feature/AmazingFeature).
-
-Open a Pull Request.
+1. Fork the repository.
+2. Create a branch for your feature (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
 
 Please ensure any changes to room schedules are based on reliable university sources.
 
-👨‍💻 Meet the Founders
+---
+
+## 👨‍💻 Meet the Founders
+
 FreeRoom was initiated and developed by two students of 65D, Leading University.
 
-Sheikh Abir Ali
-Automation Engineer & WordPress Developer
+### Sheikh Abir Ali
+**Automation Engineer & WordPress Developer**
 
 Abir works across automation, web development, SEO, WordPress, Chrome extensions, and business systems. His focus is on building practical digital solutions and technology that solves real-world problems. He is also the Co-Founder of Tresify Lab.
 
-🔗 LinkedIn (Add your actual link here)
+🔗 [LinkedIn](https://www.linkedin.com/in/sheikhabirali/)
 
-Thouhid Azim Munna
-Tech & AI Enthusiast
+### Thouhid Azim Munna
+**Tech & AI Enthusiast**
 
 Thouhid is driven by curiosity, critical thinking, and continuous learning. His interests span programming, AI, psychology, philosophy, and the interaction between technology and human systems. He is currently focused on AI, competitive programming, and practical tech projects.
 
-🔗 LinkedIn (Add your actual link here)
+🔗 [LinkedIn](https://www.linkedin.com/in/thouhid-azim-b326a9323/)
 
-⚠️ Disclaimer
+---
+
+## ⚠️ Disclaimer
+
 FreeRoom is an independent student project and is not an official system of Leading University.
 
 Availability is calculated based on static schedule data. University schedules may change, classes may be rescheduled, and rooms may be occupied for exams, clubs, or events not listed on the standard timetable.
 
 Always verify important information against official sources. FreeRoom does not guarantee that a classroom will physically be available at any given time.
 
-📄 License
+---
+
+## 📄 License
+
 Distributed under the MIT License. Copyright © 2026 Sheikh Abir Ali & Thouhid Azim Munna.
 
-See LICENSE for more information.
+See `LICENSE` for more information.
