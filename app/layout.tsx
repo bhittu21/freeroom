@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "FreeRoom | Find a free classroom",
   description: "Quickly find classrooms that are currently free or will be free during a selected future period.",
   verification: {
-    google: "FOrw5DkITgbqr8KgzqRV3PUzvY2nMK5KkvUk0ile8cI",
+    google: "udAx7g7BP10ISaN9d2hbEsyra9HfxaBULnOvcTEkUME",
   }
 };
 
