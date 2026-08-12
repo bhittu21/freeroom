@@ -355,11 +355,11 @@
 "5": {
 "start": "13:50",
 "end": "14:55",
-"status": "free",
-"department": null,
-"course_code": null,
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-3213",
 "course_name": null,
-"teacher_code": null,
+"teacher_code": "ARP",
 "teacher_name": null,
 "section": null,
 "raw_text": null

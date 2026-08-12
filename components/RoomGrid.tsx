@@ -25,7 +25,7 @@ export default function RoomGrid({ rooms, buildings, floors }: RoomGridProps) {
   const [dateSelection, setDateSelection] = useState<'today' | 'tomorrow' | 'custom'>('today');
   const [customDate, setCustomDate] = useState<string>(''); // YYYY-MM-DD
   const [time, setTime] = useState<string>(''); // HH:mm
-  const [duration, setDuration] = useState<number>(60); // minutes
+  const [duration, setDuration] = useState<number>(30); // minutes
 
   const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
 
