@@ -1,0 +1,84 @@
+{
+  "building": { "code": "RAB", "name": null, "number": null },
+  "room": { "id": "PHY Lab", "number": null, "floor": "1st floor" },
+  "academic_session": null,
+  "time_slots": {
+    "1": { "start": "09:00", "end": "10:05" },
+    "2": { "start": "10:05", "end": "11:10" },
+    "3": { "start": "11:10", "end": "12:15" },
+    "4": { "start": "12:15", "end": "13:20" },
+    "5": { "start": "13:50", "end": "14:55" },
+    "6": { "start": "14:55", "end": "16:00" }
+  },
+  "break": { "start": "13:20", "end": "13:50" },
+  "schedule": {
+    "Saturday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "2": { "start": "10:05", "end": "11:10", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "3": { "start": "11:10", "end": "12:15", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "4": { "start": "12:15", "end": "13:20", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "5": { "start": "13:50", "end": "14:55", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "6": { "start": "14:55", "end": "16:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Sunday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "2": { "start": "10:05", "end": "11:10", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "PHY-1272", "course_name": null, "teacher_code": "MRI", "teacher_name": null, "section": "CSE-67-A", "raw_text": "PHY-1272_CSE-67-A_MRI" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "PHY-1272", "course_name": null, "teacher_code": "MRI", "teacher_name": null, "section": "CSE-67-A", "raw_text": "PHY-1272_CSE-67-A_MRI" },
+      "5": { "start": "13:50", "end": "14:55", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "6": { "start": "14:55", "end": "16:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Monday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "2": { "start": "10:05", "end": "11:10", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "PHY-1272", "course_name": null, "teacher_code": "UCM", "teacher_name": null, "section": "CSE-67-F+G", "raw_text": "PHY-1272_CSE-67-F+G_UCM" },
+      "4": { "start": "12:15", "end": "13:20", "status": "booked", "department": null, "course_code": "PHY-1272", "course_name": null, "teacher_code": "UCM", "teacher_name": null, "section": "CSE-67-F+G", "raw_text": "PHY-1272_CSE-67-F+G_UCM" },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "PHY-1272", "course_name": null, "teacher_code": "MSU", "teacher_name": null, "section": "CSE-67-C", "raw_text": "PHY-1272_CSE-67-C_MSU" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "PHY-1272", "course_name": null, "teacher_code": "MSU", "teacher_name": null, "section": "CSE-67-C", "raw_text": "PHY-1272_CSE-67-C_MSU" }
+    },
+    "Tuesday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "PHY-1272", "course_name": null, "teacher_code": "MSU", "teacher_name": null, "section": "CSE-67-D", "raw_text": "PHY-1272_CSE-67-D_MSU" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "PHY-1272", "course_name": null, "teacher_code": "MSU", "teacher_name": null, "section": "CSE-67-D", "raw_text": "PHY-1272_CSE-67-D_MSU" },
+      "4": { "start": "12:15", "end": "13:20", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "5": { "start": "13:50", "end": "14:55", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "6": { "start": "14:55", "end": "16:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Wednesday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "PHY-1272", "course_name": null, "teacher_code": "MRI", "teacher_name": null, "section": "CSE-67-B", "raw_text": "PHY-1272_CSE-67-B_MRI" },
+      "3": { "start": "11:10", "end": "12:15", "status": "booked", "department": null, "course_code": "PHY-1272", "course_name": null, "teacher_code": "MRI", "teacher_name": null, "section": "CSE-67-B", "raw_text": "PHY-1272_CSE-67-B_MRI" },
+      "4": { "start": "12:15", "end": "13:20", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "5": { "start": "13:50", "end": "14:55", "status": "booked", "department": null, "course_code": "PHY-1272", "course_name": null, "teacher_code": "MSU", "teacher_name": null, "section": "CSE-67-E", "raw_text": "PHY-1272_CSE-67-E_MSU" },
+      "6": { "start": "14:55", "end": "16:00", "status": "booked", "department": null, "course_code": "PHY-1272", "course_name": null, "teacher_code": "MSU", "teacher_name": null, "section": "CSE-67-E", "raw_text": "PHY-1272_CSE-67-E_MSU" }
+    },
+    "Thursday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "2": { "start": "10:05", "end": "11:10", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "3": { "start": "11:10", "end": "12:15", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "4": { "start": "12:15", "end": "13:20", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "5": { "start": "13:50", "end": "14:55", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "6": { "start": "14:55", "end": "16:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    },
+    "Friday": {
+      "1": { "start": "09:00", "end": "10:05", "status": "booked", "department": null, "course_code": "PHY-1272", "course_name": null, "teacher_code": "UCM", "teacher_name": null, "section": "CE", "raw_text": "PHY-1272_CE_UCM" },
+      "2": { "start": "10:05", "end": "11:10", "status": "booked", "department": null, "course_code": "PHY-1272", "course_name": null, "teacher_code": "UCM", "teacher_name": null, "section": "CE", "raw_text": "PHY-1272_CE_UCM" },
+      "3": { "start": "11:10", "end": "12:15", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "4": { "start": "12:15", "end": "13:20", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "5": { "start": "13:50", "end": "14:55", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null },
+      "6": { "start": "14:55", "end": "16:00", "status": "free", "department": null, "course_code": null, "course_name": null, "teacher_code": null, "teacher_name": null, "section": null, "raw_text": null }
+    }
+  },
+  "verification": {
+    "status": "verified",
+    "unclear_items": [],
+    "notes": [
+      "This sheet has no 'LU Room Management' title, no academic-session line, no building/room-number header, no Class/Exam Capacity fields, and only 6 time slots (Slot-1 through Slot-6, ending at 4:00 PM) - unlike every other room's sheet seen so far, which had Slot-7 and a 5:05 PM end. academic_session and room.number were left null since neither is printed anywhere on this sheet; only 6 entries exist in time_slots/schedule (no '7' key) because Slot-7 genuinely does not appear on this sheet.",
+      "building.code ('RAB') and room.floor ('1st Floor') came from the user's message, not from the sheet itself - the sheet only prints the title 'PHY Lab' with no building name, room number, or floor.",
+      "This sheet lists days in the printed order Saturday, Sunday, Monday, Tuesday, Wednesday, Thursday, Friday - the schedule object below still uses standard Sunday-Saturday keys, just populated from whichever row carried that day's label.",
+      "No cell on this sheet carries a status label like 'CE Booked'/'ENG Booked' - booked cells simply contain the course text directly, so status was inferred as 'booked' wherever text is present and 'free' wherever a cell is visually empty.",
+      "Every booked cell reads 'PHY-1272_<code>_<teacher>', e.g. 'PHY-1272_CSE-67-A_MRI': course_code was taken as the constant 'PHY-1272', teacher_code as the trailing initials, and the middle segment (e.g. 'CSE-67-A', 'CSE-67-F+G', or just 'CE') was recorded as section since it appears to identify the class/batch/combined-section taking the lab, though its exact meaning isn't labeled on the sheet.",
+      "Image has glare in the corners from the plastic covering; all filled and empty cells were legible."
+    ]
+  }
+}

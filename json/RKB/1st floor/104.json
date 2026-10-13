@@ -1,0 +1,661 @@
+{
+"building": {
+"code": "RKB",
+"name": "Rabeya Khatun Bhaban",
+"number": "1"
+},
+"room": {
+"id": "RKB-104",
+"number": "104",
+"floor": "1st floor"
+},
+"academic_session": "Summer-2026(Tri)/ Fall-2026(Bi)",
+"time_slots": {
+"1": {
+"start": "09:00",
+"end": "10:05"
+},
+"2": {
+"start": "10:05",
+"end": "11:10"
+},
+"3": {
+"start": "11:10",
+"end": "12:15"
+},
+"4": {
+"start": "12:15",
+"end": "13:20"
+},
+"5": {
+"start": "13:50",
+"end": "14:55"
+},
+"6": {
+"start": "14:55",
+"end": "16:00"
+},
+"7": {
+"start": "16:00",
+"end": "17:05"
+}
+},
+"break": {
+"start": "13:20",
+"end": "13:50"
+},
+"schedule": {
+"Sunday": {
+"1": {
+"start": "09:00",
+"end": "10:05",
+"status": "booked",
+"department": null,
+"course_code": null,
+"course_name": null,
+"teacher_code": null,
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked"
+},
+"2": {
+"start": "10:05",
+"end": "11:10",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 1222",
+"course_name": null,
+"teacher_code": "FEM",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 1222 (FEM)"
+},
+"3": {
+"start": "11:10",
+"end": "12:15",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 1222",
+"course_name": null,
+"teacher_code": "FEM",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 1222 (FEM)"
+},
+"4": {
+"start": "12:15",
+"end": "13:20",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 1223",
+"course_name": null,
+"teacher_code": "ZR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 1223 (ZR)"
+},
+"5": {
+"start": "13:50",
+"end": "14:55",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 3124",
+"course_name": null,
+"teacher_code": "ZR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 3124 (ZR)"
+},
+"6": {
+"start": "14:55",
+"end": "16:00",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 3125",
+"course_name": null,
+"teacher_code": "FEM",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 3125 (FEM)"
+},
+"7": {
+"start": "16:00",
+"end": "17:05",
+"status": "free",
+"department": null,
+"course_code": null,
+"course_name": null,
+"teacher_code": null,
+"teacher_name": null,
+"section": null,
+"raw_text": null
+}
+},
+"Monday": {
+"1": {
+"start": "09:00",
+"end": "10:05",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 4122",
+"course_name": null,
+"teacher_code": "FEM",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 4122 (FEM)"
+},
+"2": {
+"start": "10:05",
+"end": "11:10",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 4122",
+"course_name": null,
+"teacher_code": "FEM",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 4122 (FEM)"
+},
+"3": {
+"start": "11:10",
+"end": "12:15",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 3124",
+"course_name": null,
+"teacher_code": "ZR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 3124 (ZR)"
+},
+"4": {
+"start": "12:15",
+"end": "13:20",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 3125",
+"course_name": null,
+"teacher_code": "FEM",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 3125 (FEM)"
+},
+"5": {
+"start": "13:50",
+"end": "14:55",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 2221",
+"course_name": null,
+"teacher_code": "AKA",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 2221 (AKA)"
+},
+"6": {
+"start": "14:55",
+"end": "16:00",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 2221",
+"course_name": null,
+"teacher_code": "AKA",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 2221 (AKA)"
+},
+"7": {
+"start": "16:00",
+"end": "17:05",
+"status": "free",
+"department": null,
+"course_code": null,
+"course_name": null,
+"teacher_code": null,
+"teacher_name": null,
+"section": null,
+"raw_text": null
+}
+},
+"Tuesday": {
+"1": {
+"start": "09:00",
+"end": "10:05",
+"status": "booked",
+"department": null,
+"course_code": null,
+"course_name": null,
+"teacher_code": null,
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked"
+},
+"2": {
+"start": "10:05",
+"end": "11:10",
+"status": "booked",
+"department": "GED",
+"course_code": "1201",
+"course_name": null,
+"teacher_code": "MMK",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nGED_1201 (MMK)"
+},
+"3": {
+"start": "11:10",
+"end": "12:15",
+"status": "booked",
+"department": "GED",
+"course_code": "1201",
+"course_name": null,
+"teacher_code": "MMK",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nGED_1201 (MMK)"
+},
+"4": {
+"start": "12:15",
+"end": "13:20",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 1223",
+"course_name": null,
+"teacher_code": "ZR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 1223 (ZR)"
+},
+"5": {
+"start": "13:50",
+"end": "14:55",
+"status": "booked",
+"department": "ENG",
+"course_code": "ELI-4121",
+"course_name": null,
+"teacher_code": "SA",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nENG_ELI-4121, SA, R-104"
+},
+"6": {
+"start": "14:55",
+"end": "16:00",
+"status": "booked",
+"department": "ENG",
+"course_code": "ELI-4122",
+"course_name": null,
+"teacher_code": "AA",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nENG_ELI-4122, AA"
+},
+"7": {
+"start": "16:00",
+"end": "17:05",
+"status": "free",
+"department": null,
+"course_code": null,
+"course_name": null,
+"teacher_code": null,
+"teacher_name": null,
+"section": null,
+"raw_text": null
+}
+},
+"Wednesday": {
+"1": {
+"start": "09:00",
+"end": "10:05",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 2222",
+"course_name": null,
+"teacher_code": "MR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 2222 (MR)"
+},
+"2": {
+"start": "10:05",
+"end": "11:10",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 2222",
+"course_name": null,
+"teacher_code": "MR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 2222 (MR)"
+},
+"3": {
+"start": "11:10",
+"end": "12:15",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 4123",
+"course_name": null,
+"teacher_code": "FEM",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 4123 (FEM)"
+},
+"4": {
+"start": "12:15",
+"end": "13:20",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 4123",
+"course_name": null,
+"teacher_code": "FEM",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 4123 (FEM)"
+},
+"5": {
+"start": "13:50",
+"end": "14:55",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 4124",
+"course_name": null,
+"teacher_code": "MR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 4124 (MR)"
+},
+"6": {
+"start": "14:55",
+"end": "16:00",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 4124",
+"course_name": null,
+"teacher_code": "MR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 4124 (MR)"
+},
+"7": {
+"start": "16:00",
+"end": "17:05",
+"status": "free",
+"department": null,
+"course_code": null,
+"course_name": null,
+"teacher_code": null,
+"teacher_name": null,
+"section": null,
+"raw_text": null
+}
+},
+"Thursday": {
+"1": {
+"start": "09:00",
+"end": "10:05",
+"status": "booked",
+"department": null,
+"course_code": null,
+"course_name": null,
+"teacher_code": null,
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked"
+},
+"2": {
+"start": "10:05",
+"end": "11:10",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 3126",
+"course_name": null,
+"teacher_code": "MR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 3126 (MR)"
+},
+"3": {
+"start": "11:10",
+"end": "12:15",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 3126",
+"course_name": null,
+"teacher_code": "MR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 3126 (MR)"
+},
+"4": {
+"start": "12:15",
+"end": "13:20",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 1221",
+"course_name": null,
+"teacher_code": "AKA",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 1221 (AKA)"
+},
+"5": {
+"start": "13:50",
+"end": "14:55",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 2223",
+"course_name": null,
+"teacher_code": "AKA",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 2223 (AKA)"
+},
+"6": {
+"start": "14:55",
+"end": "16:00",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 2223",
+"course_name": null,
+"teacher_code": "AAK",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 2223 (AAK)"
+},
+"7": {
+"start": "16:00",
+"end": "17:05",
+"status": "booked",
+"department": null,
+"course_code": "IST 2223",
+"course_name": null,
+"teacher_code": "AKA",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST_IST 2223 (AKA)"
+}
+},
+"Friday": {
+"1": {
+"start": "09:00",
+"end": "10:05",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 5121",
+"course_name": null,
+"teacher_code": "AH",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 5121 (AH)"
+},
+"2": {
+"start": "10:05",
+"end": "11:10",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 5122",
+"course_name": null,
+"teacher_code": "TR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 5122 (TR)"
+},
+"3": {
+"start": "11:10",
+"end": "12:15",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 5123",
+"course_name": null,
+"teacher_code": "MR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 5123 (MR)"
+},
+"4": {
+"start": "12:15",
+"end": "13:20",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 5124",
+"course_name": null,
+"teacher_code": "ZR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 5124 (ZR)"
+},
+"5": {
+"start": "13:50",
+"end": "14:55",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 5125",
+"course_name": null,
+"teacher_code": "ZR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 5125 (ZR)"
+},
+"6": {
+"start": "14:55",
+"end": "16:00",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 5124",
+"course_name": null,
+"teacher_code": "ZR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 5124 (ZR)"
+},
+"7": {
+"start": "16:00",
+"end": "17:05",
+"status": "booked",
+"department": null,
+"course_code": "IST 5123",
+"course_name": null,
+"teacher_code": "MR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST_IST 5123 (MR)"
+}
+},
+"Saturday": {
+"1": {
+"start": "09:00",
+"end": "10:05",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 5126",
+"course_name": null,
+"teacher_code": "MR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 5126 (MR)"
+},
+"2": {
+"start": "10:05",
+"end": "11:10",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 6221",
+"course_name": null,
+"teacher_code": "ZR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 6221 (ZR)"
+},
+"3": {
+"start": "11:10",
+"end": "12:15",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 6222",
+"course_name": null,
+"teacher_code": "FEM",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 6222 (FEM)"
+},
+"4": {
+"start": "12:15",
+"end": "13:20",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 6223",
+"course_name": null,
+"teacher_code": "AH",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 6223 (AH)"
+},
+"5": {
+"start": "13:50",
+"end": "14:55",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 6221",
+"course_name": null,
+"teacher_code": "ZR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 6221 (ZR)"
+},
+"6": {
+"start": "14:55",
+"end": "16:00",
+"status": "booked",
+"department": "IST",
+"course_code": "IST 6222",
+"course_name": null,
+"teacher_code": "FEM",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nIST_IST 6222 (FEM)"
+},
+"7": {
+"start": "16:00",
+"end": "17:05",
+"status": "booked",
+"department": null,
+"course_code": "IST 6223",
+"course_name": null,
+"teacher_code": "AH",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST_IST 6223 (AH)"
+}
+}
+},
+"verification": {
+"status": "verified",
+"unclear_items": [],
+"notes": [
+"Several cells like Sunday Slot 1 only state 'IST Booked' without specifying a course. These are recorded as booked with null course details.",
+"Tuesday Slot 5 includes a room note 'R-104' in the raw text, which has been preserved in 'raw_text' while standard fields extract the course and teacher.",
+"Thursday Slot 6 clearly shows teacher code 'AAK' whereas Slot 5 and 7 show 'AKA'. The exact visible text was preserved for each.",
+"In Slot 7 of Thursday, Friday, and Saturday, course strings are provided without the leading 'IST Booked' label. The department field is marked null based on the strict extraction of preceding department labels, while the course codes explicitly prefix 'IST_'."
+]
+}
+}

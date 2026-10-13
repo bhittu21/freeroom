@@ -1,0 +1,661 @@
+{
+"building": {
+"code": "RKB",
+"name": "Rabeya Khatun Bhaban",
+"number": "1"
+},
+"room": {
+"id": "RKB-103",
+"number": "103",
+"floor": "1st floor"
+},
+"academic_session": "Summer-2026(Tri)/ Fall-2026(Bi)",
+"time_slots": {
+"1": {
+"start": "09:00",
+"end": "10:05"
+},
+"2": {
+"start": "10:05",
+"end": "11:10"
+},
+"3": {
+"start": "11:10",
+"end": "12:15"
+},
+"4": {
+"start": "12:15",
+"end": "13:20"
+},
+"5": {
+"start": "13:50",
+"end": "14:55"
+},
+"6": {
+"start": "14:55",
+"end": "16:00"
+},
+"7": {
+"start": "16:00",
+"end": "17:05"
+}
+},
+"break": {
+"start": "13:20",
+"end": "13:50"
+},
+"schedule": {
+"Sunday": {
+"1": {
+"start": "09:00",
+"end": "10:05",
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-4113",
+"course_name": null,
+"teacher_code": "SNC",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CSE-4113 SNC"
+},
+"2": {
+"start": "10:05",
+"end": "11:10",
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-4113",
+"course_name": null,
+"teacher_code": "AAF",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CSE-4113 AAF"
+},
+"3": {
+"start": "11:10",
+"end": "12:15",
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-4261",
+"course_name": null,
+"teacher_code": "MHH",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CSE-4261 MHH"
+},
+"4": {
+"start": "12:15",
+"end": "13:20",
+"status": "booked",
+"department": "CSE",
+"course_code": "GED-3213",
+"course_name": null,
+"teacher_code": "JAC",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_GED-3213 JAC"
+},
+"5": {
+"start": "13:50",
+"end": "14:55",
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-4135",
+"course_name": null,
+"teacher_code": "ABD",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CSE-4135 ABD"
+},
+"6": {
+"start": "14:55",
+"end": "16:00",
+"status": "booked",
+"department": "CSE",
+"course_code": "MAT-2251",
+"course_name": null,
+"teacher_code": "MJJ",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_MAT-2251 MJJ"
+},
+"7": {
+"start": "16:00",
+"end": "17:05",
+"status": "booked",
+"department": null,
+"course_code": "MAT-2251",
+"course_name": null,
+"teacher_code": "MJJ",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE_MAT-2251 MJJ"
+}
+},
+"Monday": {
+"1": {
+"start": "09:00",
+"end": "10:05",
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-1151",
+"course_name": null,
+"teacher_code": "ZAA",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CSE-1151 ZAA"
+},
+"2": {
+"start": "10:05",
+"end": "11:10",
+"status": "booked",
+"department": "CSE",
+"course_code": "GED-1231",
+"course_name": null,
+"teacher_code": "AO",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_GED-1231 AO"
+},
+"3": {
+"start": "11:10",
+"end": "12:15",
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-1151",
+"course_name": null,
+"teacher_code": "ZAA",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CSE-1151 ZAA"
+},
+"4": {
+"start": "12:15",
+"end": "13:20",
+"status": "booked",
+"department": "CSE",
+"course_code": "EEE-1221",
+"course_name": null,
+"teacher_code": "STH",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_EEE-1221 STH"
+},
+"5": {
+"start": "13:50",
+"end": "14:55",
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-2101",
+"course_name": null,
+"teacher_code": "TCN",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CSE-2101 TCN"
+},
+"6": {
+"start": "14:55",
+"end": "16:00",
+"status": "booked",
+"department": "CSE",
+"course_code": null,
+"course_name": null,
+"teacher_code": null,
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked"
+},
+"7": {
+"start": "16:00",
+"end": "17:05",
+"status": "booked",
+"department": null,
+"course_code": "GED-1201",
+"course_name": null,
+"teacher_code": "ART",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE_GED-1201 ART"
+}
+},
+"Tuesday": {
+"1": {
+"start": "09:00",
+"end": "10:05",
+"status": "booked",
+"department": "CSE",
+"course_code": "GED-1201",
+"course_name": null,
+"teacher_code": "ART",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_GED-1201 ART"
+},
+"2": {
+"start": "10:05",
+"end": "11:10",
+"status": "booked",
+"department": "CSE",
+"course_code": "GED-1116",
+"course_name": null,
+"teacher_code": "AIC",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_GED-1116 AIC"
+},
+"3": {
+"start": "11:10",
+"end": "12:15",
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-4261",
+"course_name": null,
+"teacher_code": "MHH",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CSE-4261 MHH"
+},
+"4": {
+"start": "12:15",
+"end": "13:20",
+"status": "booked",
+"department": "CSE",
+"course_code": "GED-1231",
+"course_name": null,
+"teacher_code": "AO",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_GED-1231 AO"
+},
+"5": {
+"start": "13:50",
+"end": "14:55",
+"status": "booked",
+"department": "CSE",
+"course_code": "EEE-1221",
+"course_name": null,
+"teacher_code": "TCS",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_EEE-1221 TCS"
+},
+"6": {
+"start": "14:55",
+"end": "16:00",
+"status": "booked",
+"department": "CSE",
+"course_code": "EEE-1221",
+"course_name": null,
+"teacher_code": "UMP",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_EEE-1221 UMP"
+},
+"7": {
+"start": "16:00",
+"end": "17:05",
+"status": "booked",
+"department": null,
+"course_code": "CSE-4113",
+"course_name": null,
+"teacher_code": "FZM",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE_CSE-4113 FZM"
+}
+},
+"Wednesday": {
+"1": {
+"start": "09:00",
+"end": "10:05",
+"status": "booked",
+"department": "CSE",
+"course_code": "GED-1131",
+"course_name": null,
+"teacher_code": "ARU",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_GED-1131 ARU"
+},
+"2": {
+"start": "10:05",
+"end": "11:10",
+"status": "booked",
+"department": "CSE",
+"course_code": "GED-1131",
+"course_name": null,
+"teacher_code": "JHR",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_GED-1131 JHR"
+},
+"3": {
+"start": "11:10",
+"end": "12:15",
+"status": "booked",
+"department": "CSE",
+"course_code": "GED-1131",
+"course_name": null,
+"teacher_code": "TBR",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_GED-1131 TBR"
+},
+"4": {
+"start": "12:15",
+"end": "13:20",
+"status": "booked",
+"department": "CSE",
+"course_code": "GED-2181",
+"course_name": null,
+"teacher_code": "SZR",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_GED-2181 SZR"
+},
+"5": {
+"start": "13:50",
+"end": "14:55",
+"status": "booked",
+"department": "CSE",
+"course_code": "GED-1131",
+"course_name": null,
+"teacher_code": "JHR",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_GED-1131 JHR"
+},
+"6": {
+"start": "14:55",
+"end": "16:00",
+"status": "booked",
+"department": "CSE",
+"course_code": "GED-3213",
+"course_name": null,
+"teacher_code": "MRH",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_GED-3213 MRH"
+},
+"7": {
+"start": "16:00",
+"end": "17:05",
+"status": "booked",
+"department": null,
+"course_code": "GED-1116",
+"course_name": null,
+"teacher_code": "AIC",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE_GED-1116 AIC"
+}
+},
+"Thursday": {
+"1": {
+"start": "09:00",
+"end": "10:05",
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-2231",
+"course_name": null,
+"teacher_code": "MHH",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CSE-2231 MHH"
+},
+"2": {
+"start": "10:05",
+"end": "11:10",
+"status": "booked",
+"department": "CSE",
+"course_code": "EEE-1221",
+"course_name": null,
+"teacher_code": "UMP",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_EEE-1221 UMP"
+},
+"3": {
+"start": "11:10",
+"end": "12:15",
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-4261",
+"course_name": null,
+"teacher_code": "AFR",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CSE-4261 AFR"
+},
+"4": {
+"start": "12:15",
+"end": "13:20",
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-4261",
+"course_name": null,
+"teacher_code": "AFR",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CSE-4261 AFR"
+},
+"5": {
+"start": "13:50",
+"end": "14:55",
+"status": "booked",
+"department": "CSE",
+"course_code": "GED-1201",
+"course_name": null,
+"teacher_code": "PMR",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_GED-1201 PMR"
+},
+"6": {
+"start": "14:55",
+"end": "16:00",
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-2101",
+"course_name": null,
+"teacher_code": "TCN",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CSE-2101 TCN"
+},
+"7": {
+"start": "16:00",
+"end": "17:05",
+"status": "booked",
+"department": null,
+"course_code": "GED-1201",
+"course_name": null,
+"teacher_code": "PMR",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE_GED-1201 PMR"
+}
+},
+"Friday": {
+"1": {
+"start": "09:00",
+"end": "10:05",
+"status": "booked",
+"department": "IST",
+"course_code": "CSE-3121",
+"course_name": null,
+"teacher_code": "ARP",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nCSE_CSE-3121 ARP"
+},
+"2": {
+"start": "10:05",
+"end": "11:10",
+"status": "booked",
+"department": "IST",
+"course_code": "CSE-2101",
+"course_name": null,
+"teacher_code": "THT",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nCSE_CSE-2101 THT"
+},
+"3": {
+"start": "11:10",
+"end": "12:15",
+"status": "booked",
+"department": "IST",
+"course_code": "GED-1261",
+"course_name": null,
+"teacher_code": "DHT",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nCSE_GED-1261 DHT"
+},
+"4": {
+"start": "12:15",
+"end": "13:20",
+"status": "booked",
+"department": "IST",
+"course_code": null,
+"course_name": null,
+"teacher_code": null,
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked"
+},
+"5": {
+"start": "13:50",
+"end": "14:55",
+"status": "booked",
+"department": "IST",
+"course_code": null,
+"course_name": null,
+"teacher_code": null,
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked"
+},
+"6": {
+"start": "14:55",
+"end": "16:00",
+"status": "booked",
+"department": "IST",
+"course_code": "MAT-2251",
+"course_name": null,
+"teacher_code": "SRR",
+"teacher_name": null,
+"section": null,
+"raw_text": "IST Booked\nCSE_MAT-2251 SRR"
+},
+"7": {
+"start": "16:00",
+"end": "17:05",
+"status": "free",
+"department": null,
+"course_code": null,
+"course_name": null,
+"teacher_code": null,
+"teacher_name": null,
+"section": null,
+"raw_text": null
+}
+},
+"Saturday": {
+"1": {
+"start": "09:00",
+"end": "10:05",
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-1151",
+"course_name": null,
+"teacher_code": "ZAA",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CSE-1151 ZAA"
+},
+"2": {
+"start": "10:05",
+"end": "11:10",
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-1101",
+"course_name": null,
+"teacher_code": "TNA",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CSE-1101 TNA"
+},
+"3": {
+"start": "11:10",
+"end": "12:15",
+"status": "booked",
+"department": "CSE",
+"course_code": "CHE-1161",
+"course_name": null,
+"teacher_code": "MS",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CHE-1161 MS"
+},
+"4": {
+"start": "12:15",
+"end": "13:20",
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-4161",
+"course_name": null,
+"teacher_code": "IHA",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CSE-4161 IHA"
+},
+"5": {
+"start": "13:50",
+"end": "14:55",
+"status": "booked",
+"department": "CSE",
+"course_code": null,
+"course_name": null,
+"teacher_code": null,
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked"
+},
+"6": {
+"start": "14:55",
+"end": "16:00",
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-2101",
+"course_name": null,
+"teacher_code": "SDJ",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CSE-2101 SDJ"
+},
+"7": {
+"start": "16:00",
+"end": "17:05",
+"status": "booked",
+"department": "CSE",
+"course_code": "CSE-2101",
+"course_name": null,
+"teacher_code": "AAF",
+"teacher_name": null,
+"section": null,
+"raw_text": "CSE Booked\nCSE_CSE-2101 AAF"
+}
+}
+},
+"verification": {
+"status": "verified",
+"unclear_items": [],
+"notes": [
+"The header mentions 'RKF' but the room designation is 'RKB-103', the prompt mentions 'RKB', so 'RKB' is used as the building code.",
+"In several days, Slot 7 contains the course information without the preceding 'CSE Booked' label. The raw text is preserved, and the department field is left null for those specific entries.",
+"Friday Slot 1, 2, 3, and 6 are labeled 'IST Booked' although the course strings begin with 'CSE_'. The department has been parsed as 'IST' based on the explicit booked label.",
+"Monday Slot 6, Friday Slot 4, Friday Slot 5, and Saturday Slot 5 only contain booked labels without course information."
+]
+}
+}

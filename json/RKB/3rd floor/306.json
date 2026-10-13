@@ -1,0 +1,660 @@
+{
+  "building": {
+    "code": "RKB",
+    "name": "Rabeya Khatun Bhaban",
+    "number": "1"
+  },
+  "room": {
+    "id": "RKB-306",
+    "number": "306",
+    "floor": "3rd floor"
+  },
+  "academic_session": "Summer-2026(Tri)/ Fall-2026(Bi)",
+  "time_slots": {
+    "1": {
+      "start": "09:00",
+      "end": "10:05"
+    },
+    "2": {
+      "start": "10:05",
+      "end": "11:10"
+    },
+    "3": {
+      "start": "11:10",
+      "end": "12:15"
+    },
+    "4": {
+      "start": "12:15",
+      "end": "13:20"
+    },
+    "5": {
+      "start": "13:50",
+      "end": "14:55"
+    },
+    "6": {
+      "start": "14:55",
+      "end": "16:00"
+    },
+    "7": {
+      "start": "16:00",
+      "end": "17:05"
+    }
+  },
+  "break": {
+    "start": "13:20",
+    "end": "13:50"
+  },
+  "schedule": {
+    "Sunday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "GED-1131",
+        "course_name": null,
+        "teacher_code": "OKM",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_GED-1131 (OKM)"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "GED-1131",
+        "course_name": null,
+        "teacher_code": "OKM",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_GED-1131 (OKM)"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-2273",
+        "course_name": null,
+        "teacher_code": "AMH",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-2273 (AMH)"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-1341",
+        "course_name": null,
+        "teacher_code": "HRK",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-1341 (HRK)"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-2171",
+        "course_name": null,
+        "teacher_code": "ASP",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-2171(ASP)"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "GED-2271",
+        "course_name": null,
+        "teacher_code": "MAAH",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_GED-2271 (MAAH)"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-2273",
+        "course_name": null,
+        "teacher_code": "AMH",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-2273(AMH)"
+      }
+    },
+    "Monday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-4137",
+        "course_name": null,
+        "teacher_code": "WA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-4137 (WA)"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-4139",
+        "course_name": null,
+        "teacher_code": "JS",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-4139 (JS)"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-2273",
+        "course_name": null,
+        "teacher_code": "AMH",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-2273 (AMH)"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "GED-1261",
+        "course_name": null,
+        "teacher_code": "TJK",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_GED-1261 (TJK)"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "GED-1131",
+        "course_name": null,
+        "teacher_code": "ARU",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_GED-1131 (ARU)"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-3241",
+        "course_name": null,
+        "teacher_code": "FI",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-3241 (FI)"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-3155",
+        "course_name": null,
+        "teacher_code": "MUJ",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-3155(MUJ)"
+      }
+    },
+    "Tuesday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-1122",
+        "course_name": null,
+        "teacher_code": "FH",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-1122 (FH)"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "GED-2243",
+        "course_name": null,
+        "teacher_code": "AY",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_GED-2243 (AY)"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-4123",
+        "course_name": null,
+        "teacher_code": "AAA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-4123 (AAA)"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-4139",
+        "course_name": null,
+        "teacher_code": "JS",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-4139 (JS)"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-2133",
+        "course_name": null,
+        "teacher_code": "JS",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-2133 (JS)"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-4149",
+        "course_name": null,
+        "teacher_code": "SIS",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-4149 (SIS)"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-2175",
+        "course_name": null,
+        "teacher_code": "ASP",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-2175(ASP)"
+      }
+    },
+    "Wednesday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-2155",
+        "course_name": null,
+        "teacher_code": "MUJ",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-2155 (MUJ)"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "GED-2193",
+        "course_name": null,
+        "teacher_code": "AHA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_GED-2193 (AHA)"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-2175",
+        "course_name": null,
+        "teacher_code": "ASP",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-2175 (ASP)"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-1233",
+        "course_name": null,
+        "teacher_code": "WA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-1233 (WA)"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "GED-1131",
+        "course_name": null,
+        "teacher_code": "OKM",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_GED-1131 (OKM)"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "GED-2193",
+        "course_name": null,
+        "teacher_code": "AHA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_GED-2193 (AHA)"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-3144",
+        "course_name": null,
+        "teacher_code": "AY",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-3144 (AY)"
+      }
+    },
+    "Thursday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-1341",
+        "course_name": null,
+        "teacher_code": "HRK",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-1341 (HRK"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "GED-1145",
+        "course_name": null,
+        "teacher_code": "SAR",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_GED-1145 (SAR)"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "GED-1145",
+        "course_name": null,
+        "teacher_code": "SAR",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_GED-1145 (SAR)"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "GED-1201",
+        "course_name": null,
+        "teacher_code": "MRT",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_GED-1201 (MRT)"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "GED-1145",
+        "course_name": null,
+        "teacher_code": "SAR",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_GED-1145 (SAR)"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "GED-1145",
+        "course_name": null,
+        "teacher_code": "SAR",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_GED-1145 (SAR)"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-1341",
+        "course_name": null,
+        "teacher_code": "HRK",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-1341(HRK)"
+      }
+    },
+    "Friday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-5435",
+        "course_name": null,
+        "teacher_code": "WA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-5435 (WA)"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-5435",
+        "course_name": null,
+        "teacher_code": "WA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-5435 (WA)"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-5434",
+        "course_name": null,
+        "teacher_code": "ISH",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-5434 (ISH)"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-5434",
+        "course_name": null,
+        "teacher_code": "ISH",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-5434 (ISH)"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nRKB-306"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked"
+      }
+    },
+    "Saturday": {
+      "1": {
+        "start": "09:00",
+        "end": "10:05",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-5111",
+        "course_name": null,
+        "teacher_code": "AAA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-5111 (AAA)"
+      },
+      "2": {
+        "start": "10:05",
+        "end": "11:10",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-5111",
+        "course_name": null,
+        "teacher_code": "AAA",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-5111 (AAA)"
+      },
+      "3": {
+        "start": "11:10",
+        "end": "12:15",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-5123",
+        "course_name": null,
+        "teacher_code": "BAB",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-5123 (BAB)"
+      },
+      "4": {
+        "start": "12:15",
+        "end": "13:20",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-5123",
+        "course_name": null,
+        "teacher_code": "BAB",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-5123 (BAB)"
+      },
+      "5": {
+        "start": "13:50",
+        "end": "14:55",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-5421",
+        "course_name": null,
+        "teacher_code": "BAB",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-5421 (BAB)"
+      },
+      "6": {
+        "start": "14:55",
+        "end": "16:00",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": "BUS-5421",
+        "course_name": null,
+        "teacher_code": "BAB",
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked\nBuA_BUS-5421 (BAB)"
+      },
+      "7": {
+        "start": "16:00",
+        "end": "17:05",
+        "status": "booked",
+        "department": "BuA",
+        "course_code": null,
+        "course_name": null,
+        "teacher_code": null,
+        "teacher_name": null,
+        "section": null,
+        "raw_text": "BuA Booked"
+      }
+    }
+  },
+  "verification": {
+    "status": "verified",
+    "unclear_items": [],
+    "notes": [
+      "Thursday Slot 1 is missing a closing parenthesis on the teacher code in the image. Extracted as 'HRK' with the raw text strictly preserved.",
+      "Friday Slot 6 indicates 'BuA Booked' and 'RKB-306' rather than a standard course code. Captured as booked with null course/teacher codes.",
+      "Friday Slot 4, Friday Slot 7, and Saturday Slot 7 simply state 'BuA Booked' with no course information. Marked as booked with null details."
+    ]
+  }
+}
