@@ -7,8 +7,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "FreeRoom | Find a free classroom",
-  description: "Quickly find classrooms that are currently free or will be free during a selected future period.",
+  title: "FreeRoom — Major Upgrade in Progress",
+  description: "FreeRoom is temporarily updating with the latest routines and working on a more powerful, industry-level system.",
   verification: {
     google: "udAx7g7BP10ISaN9d2hbEsyra9HfxaBULnOvcTEkUME",
   }

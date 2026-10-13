@@ -2,9 +2,12 @@ import { getRoomById, getAllRooms } from '@/lib/rooms';
 import { roomSources } from '@/lib/sources';
 import Header from '@/components/Header';
 import ScheduleView from '@/components/ScheduleView';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import { MapPin, Info, ArrowLeft, ExternalLink } from 'lucide-react';
 import Link from 'next/link';
+
+// Set to true to redirect individual room traffic to the maintenance announcement page
+const MAINTENANCE_MODE = true;
 
 export async function generateStaticParams() {
   const rooms = getAllRooms();
@@ -14,6 +17,9 @@ export async function generateStaticParams() {
 }
 
 export default async function RoomPage({ params }: { params: Promise<{ roomId: string }> }) {
+  if (MAINTENANCE_MODE) {
+    redirect('/');
+  }
   // Decode the URL param in case it has special characters
   const resolvedParams = await params;
   const decodedId = decodeURIComponent(resolvedParams.roomId);

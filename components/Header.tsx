@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import BangladeshClock from './BangladeshClock';
 
-export default function Header() {
+export default function Header({ maintenance = true }: { maintenance?: boolean } = {}) {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white/80 backdrop-blur-md">
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
@@ -17,9 +17,21 @@ export default function Header() {
         </Link>
 
         <div className="flex items-center gap-6">
-          <nav className="hidden md:flex gap-6 text-sm font-medium text-slate-600">
-            <Link href="/" className="hover:text-slate-900 transition-colors">Rooms</Link>
+          <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
+            {!maintenance && (
+              <Link href="/" className="hover:text-slate-900 transition-colors">Rooms</Link>
+            )}
             <Link href="/about" className="hover:text-slate-900 transition-colors">About</Link>
+            {maintenance && (
+              <a 
+                href="https://github.com/bhittu21/freeroom" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-slate-900 transition-colors"
+              >
+                GitHub
+              </a>
+            )}
           </nav>
           
           <div className="h-10 w-px bg-slate-200 hidden md:block"></div>
